@@ -1,0 +1,12 @@
+{
+  "name": "Guitarstand",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "a15c1fae-ea1c-49ae-8446-7a3079d7210e",
+  "fileKey": "Guitarstand.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\Guitarstand.fbx"
+}

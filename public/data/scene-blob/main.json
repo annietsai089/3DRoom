@@ -72,6 +72,43 @@
       }
     },
     {
+      "id": "11870254-2dcd-43b9-bc89-bcd7db7b13ef",
+      "name": "Guitarstand",
+      "assetId": "a15c1fae-ea1c-49ae-8446-7a3079d7210e",
+      "position": [
+        195.61126271152514,
+        0.4384483149488241,
+        557.4236833707041
+      ],
+      "scale": [
+        0.008924156796125873,
+        0.008924156796125873,
+        0.008924156796125873
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#e7e7e7",
+          "materialId": "a15c20cd-069a-448f-83d2-0faae0106e48",
+          "name": "Material"
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
       "id": "1d7979d7-4bb7-4abb-ba97-eb4fd5b25055",
       "name": "Point Light",
       "assetId": "",

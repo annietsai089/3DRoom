@@ -1,0 +1,114 @@
+{
+  "name": "M_Guitar stand",
+  "type": "material",
+  "material": {
+    "type": "standard",
+    "params": {
+      "metalness": 0,
+      "opacity": 1
+    },
+    "side": 0,
+    "shaderParams": {
+      "color": {
+        "type": 10,
+        "value": "#ffffff"
+      },
+      "map": {
+        "type": 2,
+        "value": "a15c208e-c8c6-415b-a89d-5a98515a563b"
+      },
+      "opacity": {
+        "type": 1,
+        "value": 1
+      },
+      "alphaMap": {
+        "type": 2
+      },
+      "roughness": {
+        "type": 1,
+        "value": 1
+      },
+      "roughnessMap": {
+        "type": 2,
+        "value": "a15c2090-13fc-4c7b-88b6-6903b7862d3d"
+      },
+      "metalness": {
+        "type": 1,
+        "value": 0.4
+      },
+      "metalnessMap": {
+        "type": 2,
+        "value": "a15c208f-90e4-43e5-b89a-6cec0072ee3c"
+      },
+      "lightMap": {
+        "type": 2
+      },
+      "lightMapIntensity": {
+        "type": 1
+      },
+      "aoMap": {
+        "type": 2,
+        "value": "a15c2090-6f96-4aaa-aa65-b063505c17e6"
+      },
+      "aoMapIntensity": {
+        "type": 1
+      },
+      "emissive": {
+        "type": 10,
+        "value": "#000000"
+      },
+      "emissiveIntensity": {
+        "type": 1
+      },
+      "emissiveMap": {
+        "type": 2
+      },
+      "bumpMap": {
+        "type": 2
+      },
+      "bumpScale": {
+        "type": 1
+      },
+      "normalMap": {
+        "type": 2,
+        "value": "a15c2090-b79e-43e1-8e33-098f0bd405d1"
+      },
+      "normalScale": {
+        "type": 6,
+        "value": [
+          0.6,
+          0.6
+        ]
+      },
+      "displacementMap": {
+        "type": 2
+      },
+      "displacementScale": {
+        "type": 1
+      },
+      "displacementBias": {
+        "type": 1
+      },
+      "envMap": {
+        "type": 2
+      },
+      "envMapIntensity": {
+        "type": 1
+      },
+      "refractionRatio": {
+        "type": 1
+      },
+      "heightMap": {
+        "type": 2
+      },
+      "heightScale": {
+        "type": 1
+      },
+      "vertexColor": {
+        "type": 4,
+        "value": false
+      }
+    }
+  },
+  "id": "a15c20cd-069a-448f-83d2-0faae0106e48"
+}
