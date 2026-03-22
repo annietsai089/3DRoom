@@ -1,0 +1,9 @@
+{
+  "name": "Plant2",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "a155ed9d-2bf2-4fa9-9332-6b5e9681983f",
+  "fileKey": "Plant2.glb",
+  "fileFormat": "glb",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\Plant2.glb"
+}

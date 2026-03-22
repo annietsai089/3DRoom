@@ -1,0 +1,7 @@
+{
+  "name": "3d room",
+  "staticPath": "public",
+  "dataPath": "public/data",
+  "shadersPath": "src/shaders",
+  "actorsPath": "src/actors"
+}

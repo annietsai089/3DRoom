@@ -1,0 +1,13 @@
+{
+  "name": "Floor Wood",
+  "type": "texture",
+  "id": "a1583b99-dd30-41cd-b75d-3fd4cf5adfa3",
+  "fileKey": "Floor Wood.jpg",
+  "fileFormat": "jpg",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\uploads_files_6175611_map\\map\\Floor Wood.jpg",
+  "texture": {
+    "flipY": false,
+    "wrapS": "repeat",
+    "wrapT": "repeat"
+  }
+}

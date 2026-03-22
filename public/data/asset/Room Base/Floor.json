@@ -1,0 +1,9 @@
+{
+  "name": "Floor",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "a155ec46-1a02-45de-a979-36500284ccab",
+  "fileKey": "Floor.glb",
+  "fileFormat": "glb",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\Floor.glb"
+}

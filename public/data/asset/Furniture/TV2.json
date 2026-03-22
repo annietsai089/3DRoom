@@ -1,0 +1,9 @@
+{
+  "name": "TV2",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "a155edd5-dbd2-47b2-af15-e90db530272a",
+  "fileKey": "TV2.glb",
+  "fileFormat": "glb",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\TV2.glb"
+}

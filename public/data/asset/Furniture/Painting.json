@@ -1,0 +1,9 @@
+{
+  "name": "Painting",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "a155ed49-d40c-402f-9c50-ee6d023e64a4",
+  "fileKey": "Painting.glb",
+  "fileFormat": "glb",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\Painting.glb"
+}

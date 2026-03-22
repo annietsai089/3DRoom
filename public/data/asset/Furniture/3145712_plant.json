@@ -1,0 +1,12 @@
+{
+  "name": "3145712_plant",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "a15943bb-f3b2-49ca-a969-3b930e41c3e0",
+  "fileKey": "3145712_plant.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3145712_plant.fbx"
+}

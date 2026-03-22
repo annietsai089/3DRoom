@@ -1,0 +1,113 @@
+{
+  "name": "M_Fabric2",
+  "type": "material",
+  "material": {
+    "type": "standard",
+    "params": {
+      "metalness": 0,
+      "opacity": 1
+    },
+    "side": 0,
+    "shaderParams": {
+      "color": {
+        "type": 10,
+        "value": "#ffffff"
+      },
+      "map": {
+        "type": 2,
+        "value": "a1589c2d-7d32-4a76-bafe-9345c48b9eac"
+      },
+      "opacity": {
+        "type": 1,
+        "value": 1
+      },
+      "alphaMap": {
+        "type": 2
+      },
+      "roughness": {
+        "type": 1,
+        "value": 1
+      },
+      "roughnessMap": {
+        "type": 2
+      },
+      "metalness": {
+        "type": 1,
+        "value": 0
+      },
+      "metalnessMap": {
+        "type": 2
+      },
+      "lightMap": {
+        "type": 2
+      },
+      "lightMapIntensity": {
+        "type": 1
+      },
+      "aoMap": {
+        "type": 2,
+        "value": "a1589c2d-6310-4de1-be71-5cfaccae6ec5"
+      },
+      "aoMapIntensity": {
+        "type": 1,
+        "value": 0.15
+      },
+      "emissive": {
+        "type": 10,
+        "value": "#000000"
+      },
+      "emissiveIntensity": {
+        "type": 1
+      },
+      "emissiveMap": {
+        "type": 2
+      },
+      "bumpMap": {
+        "type": 2
+      },
+      "bumpScale": {
+        "type": 1
+      },
+      "normalMap": {
+        "type": 2,
+        "value": "a1589c2d-a1e0-4ad7-aaac-12a0193beae9"
+      },
+      "normalScale": {
+        "type": 6,
+        "value": [
+          0.5,
+          0.5
+        ]
+      },
+      "displacementMap": {
+        "type": 2
+      },
+      "displacementScale": {
+        "type": 1
+      },
+      "displacementBias": {
+        "type": 1
+      },
+      "envMap": {
+        "type": 2
+      },
+      "envMapIntensity": {
+        "type": 1
+      },
+      "refractionRatio": {
+        "type": 1
+      },
+      "heightMap": {
+        "type": 2
+      },
+      "heightScale": {
+        "type": 1
+      },
+      "vertexColor": {
+        "type": 4,
+        "value": false
+      }
+    }
+  },
+  "id": "a1589c66-d1ae-49bf-8dbb-7fe8e8b10965"
+}

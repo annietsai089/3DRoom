@@ -1,0 +1,12 @@
+{
+  "name": "Desk Lamp 1",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "a1593991-4054-42da-bcf3-9b3bcb04d79b",
+  "fileKey": "Desk Lamp.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\Desk Lamp.fbx"
+}

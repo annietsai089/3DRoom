@@ -1,0 +1,9 @@
+{
+  "name": "Carpet",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "a155edd5-9e9c-411b-a2fc-605de3deacab",
+  "fileKey": "Carpet.glb",
+  "fileFormat": "glb",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\Carpet.glb"
+}

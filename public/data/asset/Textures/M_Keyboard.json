@@ -1,0 +1,111 @@
+{
+  "name": "M_Keyboard",
+  "type": "material",
+  "material": {
+    "type": "standard",
+    "params": {
+      "metalness": 0,
+      "opacity": 1
+    },
+    "side": 0,
+    "shaderParams": {
+      "color": {
+        "type": 10,
+        "value": "#ffffff"
+      },
+      "map": {
+        "type": 2,
+        "value": "a1584b28-9c14-4b22-bda6-a5328362511d"
+      },
+      "opacity": {
+        "type": 1,
+        "value": 1
+      },
+      "alphaMap": {
+        "type": 2
+      },
+      "roughness": {
+        "type": 1,
+        "value": 1
+      },
+      "roughnessMap": {
+        "type": 2
+      },
+      "metalness": {
+        "type": 1,
+        "value": 0
+      },
+      "metalnessMap": {
+        "type": 2
+      },
+      "lightMap": {
+        "type": 2
+      },
+      "lightMapIntensity": {
+        "type": 1
+      },
+      "aoMap": {
+        "type": 2
+      },
+      "aoMapIntensity": {
+        "type": 1
+      },
+      "emissive": {
+        "type": 10,
+        "value": "#000000"
+      },
+      "emissiveIntensity": {
+        "type": 1
+      },
+      "emissiveMap": {
+        "type": 2
+      },
+      "bumpMap": {
+        "type": 2
+      },
+      "bumpScale": {
+        "type": 1
+      },
+      "normalMap": {
+        "type": 2,
+        "value": "a1584b28-c662-4be2-80d0-a9179ff67018"
+      },
+      "normalScale": {
+        "type": 6,
+        "value": [
+          1,
+          1
+        ]
+      },
+      "displacementMap": {
+        "type": 2
+      },
+      "displacementScale": {
+        "type": 1
+      },
+      "displacementBias": {
+        "type": 1
+      },
+      "envMap": {
+        "type": 2
+      },
+      "envMapIntensity": {
+        "type": 1
+      },
+      "refractionRatio": {
+        "type": 1
+      },
+      "heightMap": {
+        "type": 2
+      },
+      "heightScale": {
+        "type": 1
+      },
+      "vertexColor": {
+        "type": 4,
+        "value": false
+      }
+    }
+  },
+  "id": "a1584b9d-0806-4432-be2b-0996827f9d9b"
+}

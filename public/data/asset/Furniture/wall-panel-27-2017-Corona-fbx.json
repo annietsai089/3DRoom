@@ -1,0 +1,12 @@
+{
+  "name": "wall-panel-27-2017-Corona-fbx",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "a1585332-9522-4af7-872d-9a0919068e70",
+  "fileKey": "wall-panel-27-2017-Corona-fbx.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\uploads_files_6359229_wall-panel-27-2017-2025.3.14-#3DDD3DSKY\\wall-panel-27-2017-Corona-fbx.fbx"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "teapot",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "a155ee40-b952-4d59-b236-c0c7c0e25658",
+  "fileKey": "teapot.glb",
+  "fileFormat": "glb",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\teapot.glb"
+}

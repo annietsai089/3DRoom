@@ -1,0 +1,113 @@
+{
+  "name": "M_Snake plant leaf",
+  "type": "material",
+  "material": {
+    "type": "standard",
+    "params": {
+      "metalness": 0,
+      "opacity": 1
+    },
+    "side": 2,
+    "shaderParams": {
+      "color": {
+        "type": 10,
+        "value": "#ffffff"
+      },
+      "map": {
+        "type": 2,
+        "value": "a1582aa2-16b4-44c5-ad6f-c8ce4d14a9ff"
+      },
+      "opacity": {
+        "type": 1,
+        "value": 1
+      },
+      "alphaMap": {
+        "type": 2,
+        "value": "a1582aa2-b92a-40f0-b8f4-52c84ed31f23"
+      },
+      "roughness": {
+        "type": 1,
+        "value": 0.5
+      },
+      "roughnessMap": {
+        "type": 2
+      },
+      "metalness": {
+        "type": 1,
+        "value": 0
+      },
+      "metalnessMap": {
+        "type": 2
+      },
+      "lightMap": {
+        "type": 2
+      },
+      "lightMapIntensity": {
+        "type": 1
+      },
+      "aoMap": {
+        "type": 2
+      },
+      "aoMapIntensity": {
+        "type": 1
+      },
+      "emissive": {
+        "type": 10,
+        "value": "#000000"
+      },
+      "emissiveIntensity": {
+        "type": 1
+      },
+      "emissiveMap": {
+        "type": 2
+      },
+      "bumpMap": {
+        "type": 2
+      },
+      "bumpScale": {
+        "type": 1
+      },
+      "normalMap": {
+        "type": 2,
+        "value": "a1582aa2-6b32-4c70-afee-2071b4b92263"
+      },
+      "normalScale": {
+        "type": 6,
+        "value": [
+          0.6,
+          0.6
+        ]
+      },
+      "displacementMap": {
+        "type": 2
+      },
+      "displacementScale": {
+        "type": 1
+      },
+      "displacementBias": {
+        "type": 1
+      },
+      "envMap": {
+        "type": 2
+      },
+      "envMapIntensity": {
+        "type": 1
+      },
+      "refractionRatio": {
+        "type": 1
+      },
+      "heightMap": {
+        "type": 2
+      },
+      "heightScale": {
+        "type": 1
+      },
+      "vertexColor": {
+        "type": 4,
+        "value": false
+      }
+    },
+    "transparent": true
+  },
+  "id": "a1582ac8-c6a6-4093-9ce1-cbd600b29913"
+}

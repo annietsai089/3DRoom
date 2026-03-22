@@ -1,0 +1,9 @@
+{
+  "name": "Desk",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "a155ed4a-1d72-4381-92d2-cb6a4de9ed59",
+  "fileKey": "Desk.glb",
+  "fileFormat": "glb",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\Desk.glb"
+}

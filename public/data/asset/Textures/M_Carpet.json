@@ -1,0 +1,114 @@
+{
+  "name": "M_Carpet",
+  "type": "material",
+  "material": {
+    "type": "standard",
+    "params": {
+      "metalness": 0,
+      "opacity": 1
+    },
+    "side": 2,
+    "shaderParams": {
+      "color": {
+        "type": 10,
+        "value": "#ebeaea"
+      },
+      "map": {
+        "type": 2,
+        "value": "a1584594-b922-4ee6-a146-72eb004e1e4d"
+      },
+      "opacity": {
+        "type": 1,
+        "value": 1
+      },
+      "alphaMap": {
+        "type": 2
+      },
+      "roughness": {
+        "type": 1,
+        "value": 0.5
+      },
+      "roughnessMap": {
+        "type": 2,
+        "value": "a1582b48-c20c-44eb-99d4-c06205ed156d"
+      },
+      "metalness": {
+        "type": 1,
+        "value": ""
+      },
+      "metalnessMap": {
+        "type": 2
+      },
+      "lightMap": {
+        "type": 2
+      },
+      "lightMapIntensity": {
+        "type": 1
+      },
+      "aoMap": {
+        "type": 2
+      },
+      "aoMapIntensity": {
+        "type": 1
+      },
+      "emissive": {
+        "type": 10,
+        "value": "#000000"
+      },
+      "emissiveIntensity": {
+        "type": 1
+      },
+      "emissiveMap": {
+        "type": 2
+      },
+      "bumpMap": {
+        "type": 2,
+        "value": "a1584594-db6e-4391-b7dc-d485e19662a3"
+      },
+      "bumpScale": {
+        "type": 1,
+        "value": 0.25
+      },
+      "normalMap": {
+        "type": 2,
+        "value": "a1582a41-b9cc-4c2a-aa2e-adbef6a1c42c"
+      },
+      "normalScale": {
+        "type": 6,
+        "value": [
+          0.3,
+          0.3
+        ]
+      },
+      "displacementMap": {
+        "type": 2
+      },
+      "displacementScale": {
+        "type": 1
+      },
+      "displacementBias": {
+        "type": 1
+      },
+      "envMap": {
+        "type": 2
+      },
+      "envMapIntensity": {
+        "type": 1
+      },
+      "refractionRatio": {
+        "type": 1
+      },
+      "heightMap": {
+        "type": 2
+      },
+      "heightScale": {
+        "type": 1
+      },
+      "vertexColor": {
+        "type": 4,
+        "value": false
+      }
+    }
+  },
+  "id": "a1582a83-4590-4017-8496-2b99b23dfc37"
+}

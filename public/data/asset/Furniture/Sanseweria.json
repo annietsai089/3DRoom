@@ -1,0 +1,13 @@
+{
+  "name": "Sanseweria",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01,
+    "collisions": {}
+  },
+  "id": "a15810be-2044-482c-84b4-64c80572db9e",
+  "fileKey": "uploads_files_2764985_sanseweria.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\uploads_files_2764985_sanseweria.fbx"
+}

@@ -1,0 +1,115 @@
+{
+  "name": "M_Metal1",
+  "type": "material",
+  "material": {
+    "type": "standard",
+    "params": {
+      "metalness": 0,
+      "opacity": 1
+    },
+    "side": 0,
+    "shaderParams": {
+      "color": {
+        "type": 10,
+        "value": "#454545"
+      },
+      "map": {
+        "type": 2,
+        "value": "a1583c21-4158-4397-922a-8ec782d15823"
+      },
+      "opacity": {
+        "type": 1,
+        "value": 1
+      },
+      "alphaMap": {
+        "type": 2
+      },
+      "roughness": {
+        "type": 1,
+        "value": 1
+      },
+      "roughnessMap": {
+        "type": 2,
+        "value": "a1583c20-699a-4ce9-8be1-b677fa0dee4f"
+      },
+      "metalness": {
+        "type": 1,
+        "value": 0.1
+      },
+      "metalnessMap": {
+        "type": 2,
+        "value": "a1583c23-0286-4772-9618-0fc9a546262a"
+      },
+      "lightMap": {
+        "type": 2
+      },
+      "lightMapIntensity": {
+        "type": 1
+      },
+      "aoMap": {
+        "type": 2,
+        "value": "a1583c20-bada-43c4-8343-3f010b74f465"
+      },
+      "aoMapIntensity": {
+        "type": 1,
+        "value": 0.2
+      },
+      "emissive": {
+        "type": 10,
+        "value": "#000000"
+      },
+      "emissiveIntensity": {
+        "type": 1
+      },
+      "emissiveMap": {
+        "type": 2
+      },
+      "bumpMap": {
+        "type": 2
+      },
+      "bumpScale": {
+        "type": 1
+      },
+      "normalMap": {
+        "type": 2,
+        "value": "a1583c23-dbc0-4003-8db4-d9d15e2c8479"
+      },
+      "normalScale": {
+        "type": 6,
+        "value": [
+          1,
+          1
+        ]
+      },
+      "displacementMap": {
+        "type": 2
+      },
+      "displacementScale": {
+        "type": 1
+      },
+      "displacementBias": {
+        "type": 1
+      },
+      "envMap": {
+        "type": 2
+      },
+      "envMapIntensity": {
+        "type": 1
+      },
+      "refractionRatio": {
+        "type": 1
+      },
+      "heightMap": {
+        "type": 2
+      },
+      "heightScale": {
+        "type": 1
+      },
+      "vertexColor": {
+        "type": 4,
+        "value": false
+      }
+    }
+  },
+  "id": "a1583c3c-d648-423f-bb2a-cac65735c47c"
+}

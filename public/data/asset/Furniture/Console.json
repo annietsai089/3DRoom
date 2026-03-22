@@ -1,0 +1,9 @@
+{
+  "name": "Console",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "a155edd6-1fac-4a2d-95af-6e19afa8f15b",
+  "fileKey": "Console.glb",
+  "fileFormat": "glb",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\Console.glb"
+}

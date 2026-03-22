@@ -1,0 +1,12 @@
+{
+  "name": "CoffeeTable",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "a158228b-275e-4280-952b-0d59be201af5",
+  "fileKey": "CoffeeTable.FBX",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\CoffeeTable.FBX"
+}

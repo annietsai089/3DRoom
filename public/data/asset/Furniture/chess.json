@@ -1,0 +1,9 @@
+{
+  "name": "chess",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "a155ee45-8626-4a34-8f38-15e1659d324e",
+  "fileKey": "chess.glb",
+  "fileFormat": "glb",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\chess.glb"
+}

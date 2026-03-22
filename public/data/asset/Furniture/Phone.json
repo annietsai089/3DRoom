@@ -1,0 +1,9 @@
+{
+  "name": "Phone",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "a155ed71-0180-444c-84dc-ad2864af6058",
+  "fileKey": "Phone.glb",
+  "fileFormat": "glb",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\Phone.glb"
+}

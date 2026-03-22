@@ -1,0 +1,12 @@
+{
+  "name": "NariBackSofaWith2TossPillows",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "a1581c60-5cfa-4eb9-a75d-c62a637c277d",
+  "fileKey": "NariBackSofaWith2TossPillows.FBX",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\NariBackSofaWith2TossPillows.FBX"
+}
