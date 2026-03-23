@@ -192,6 +192,38 @@
           "castShadow": true
         },
         {
+          "id": "01fd530f-3860-4f46-a86b-cb37478b6ce8",
+          "name": "Blanket1",
+          "assetId": "a158aa8d-8944-47f9-9001-f3faae99613e",
+          "position": [
+            17.67477993324701,
+            8.614566496596153,
+            -17.77644918756357
+          ],
+          "scale": [
+            6.388647416015851,
+            5.6547486872798585,
+            5.654748687279851
+          ],
+          "rotation": [
+            2.6728221680055633,
+            -1.513880062167374,
+            2.6734750442347432,
+            "XYZ"
+          ],
+          "type": "asset_mesh",
+          "materialAssignments": [],
+          "castShadow": true,
+          "collisionDetection": true,
+          "physics": {
+            "type": 2,
+            "friction": 0.5,
+            "density": 1,
+            "restitution": 0.5,
+            "mass": 1
+          }
+        },
+        {
           "id": "05137537-6090-41c7-852d-53c539fc0142",
           "name": "Box",
           "position": [
@@ -551,11 +583,6 @@
           "materialAssignments": [
             {
               "color": "#ffffff",
-              "materialId": "a15e751d-b1f2-4ff8-8ebe-a7f48a7f6ea9",
-              "name": "Material.017"
-            },
-            {
-              "color": "#ffffff",
               "materialId": "a1586a1e-ecb8-41ab-82fc-0d1806a0ec31",
               "name": "Material.019"
             },
@@ -573,7 +600,7 @@
             "restitution": 0.5,
             "mass": 1
           },
-          "castShadow": true
+          "castShadow": false
         },
         {
           "id": "ea175f31-64a3-4d33-b32b-061748d0d130",
@@ -659,19 +686,19 @@
           "name": "Painting",
           "assetId": "a155ed49-d40c-402f-9c50-ee6d023e64a4",
           "position": [
-            0.06949340783566527,
-            37.599558279470905,
-            18.97778872317224
+            -0.6630268148088874,
+            37.5995582794709,
+            18.96713946424825
           ],
           "scale": [
-            6.887933280710316,
-            6.887933280710343,
+            6.887933280710317,
+            6.887933280710344,
             6.132511155998937
           ],
           "rotation": [
             3.1246557877270646,
-            0,
-            0,
+            2.014828342742074e-18,
+            1.3370074907786412e-20,
             "XYZ"
           ],
           "type": "asset_mesh",
@@ -696,19 +723,19 @@
           "name": "Painting",
           "assetId": "a155ed49-d40c-402f-9c50-ee6d023e64a4",
           "position": [
-            -3.2713833466686992,
+            -3.38059660156361,
             34.36267426593327,
-            10.840585903469787
+            10.838998179072178
           ],
           "scale": [
-            5.416276536249052,
-            5.416276536249052,
-            4.971937623802905
+            5.416276536249051,
+            5.416276536249053,
+            4.971937623802904
           ],
           "rotation": [
             3.141592653589793,
-            0,
-            0,
+            1.2811188382771606e-18,
+            2.9882942402861326e-34,
             "XYZ"
           ],
           "type": "asset_mesh",
@@ -717,6 +744,48 @@
               "color": "#ffffff",
               "materialId": "a158754f-1612-4ab1-860c-acb86d6a62d8",
               "name": "imgg"
+            }
+          ],
+          "collisionDetection": true,
+          "physics": {
+            "type": 2,
+            "friction": 0.5,
+            "density": 1,
+            "restitution": 0.5,
+            "mass": 1
+          }
+        },
+        {
+          "id": "b1d94798-e433-4267-8f32-6226af87b18d",
+          "name": "Phone",
+          "assetId": "a155ed71-0180-444c-84dc-ad2864af6058",
+          "position": [
+            -15.292790049529827,
+            9.3434789427138,
+            3.4095709478889376
+          ],
+          "scale": [
+            1.2026088347752235,
+            1.2026088347752235,
+            1.2026088347752235
+          ],
+          "rotation": [
+            -3.141592653589793,
+            -0.6658630605769,
+            -3.141592653589793,
+            "XYZ"
+          ],
+          "type": "asset_mesh",
+          "materialAssignments": [
+            {
+              "color": "#00afe7",
+              "materialId": "a1583c3c-d648-423f-bb2a-cac65735c47c",
+              "name": "Material.002"
+            },
+            {
+              "color": "#332ebe",
+              "materialId": "a1583c3c-d648-423f-bb2a-cac65735c47c",
+              "name": "Material.012"
             }
           ],
           "collisionDetection": true,
@@ -759,6 +828,72 @@
             "mass": 1
           },
           "castShadow": true
+        },
+        {
+          "id": "1d7979d7-4bb7-4abb-ba97-eb4fd5b25055",
+          "name": "Point Light",
+          "assetId": "",
+          "position": [
+            -12.05292143719123,
+            15.135831317058646,
+            13.075448971605852
+          ],
+          "scale": [
+            0.9999999999999998,
+            1,
+            0.9999999999999998
+          ],
+          "rotation": [
+            0,
+            -0.014536812028507824,
+            0,
+            "XYZ"
+          ],
+          "type": "light",
+          "light": {
+            "type": "point",
+            "point": {
+              "color": "#DBC8A7",
+              "intensity": 2.15,
+              "distance": 10.4,
+              "decay": 0.2,
+              "castShadow": true,
+              "volumetricIntensity": 1
+            }
+          }
+        },
+        {
+          "id": "ad9e3dee-ce5d-463b-ab3c-e10b09792e56",
+          "name": "Point Light",
+          "assetId": "",
+          "position": [
+            -9.346280187506693,
+            16.59863272452046,
+            -23.447085499435957
+          ],
+          "scale": [
+            0.9999999999999998,
+            1,
+            0.9999999999999998
+          ],
+          "rotation": [
+            0,
+            -0.014536812028507824,
+            0,
+            "XYZ"
+          ],
+          "type": "light",
+          "light": {
+            "type": "point",
+            "point": {
+              "color": "#DBC8A7",
+              "intensity": 1.65,
+              "distance": 10.4,
+              "decay": 0.2,
+              "castShadow": true,
+              "volumetricIntensity": 1
+            }
+          }
         },
         {
           "id": "e1595628-32a6-4f98-809a-dc1686ef914c",
@@ -956,146 +1091,6 @@
             "mass": 1
           },
           "castShadow": true
-        },
-        {
-          "id": "1d7979d7-4bb7-4abb-ba97-eb4fd5b25055",
-          "name": "Point Light",
-          "assetId": "",
-          "position": [
-            -12.05292143719123,
-            15.135831317058646,
-            13.075448971605852
-          ],
-          "scale": [
-            0.9999999999999998,
-            1,
-            0.9999999999999998
-          ],
-          "rotation": [
-            0,
-            -0.014536812028507824,
-            0,
-            "XYZ"
-          ],
-          "type": "light",
-          "light": {
-            "type": "point",
-            "point": {
-              "color": "#DBC8A7",
-              "intensity": 2.15,
-              "distance": 10.4,
-              "decay": 0.2,
-              "castShadow": true,
-              "volumetricIntensity": 1
-            }
-          }
-        },
-        {
-          "id": "ad9e3dee-ce5d-463b-ab3c-e10b09792e56",
-          "name": "Point Light",
-          "assetId": "",
-          "position": [
-            -9.346280187506693,
-            16.59863272452046,
-            -23.447085499435957
-          ],
-          "scale": [
-            0.9999999999999998,
-            1,
-            0.9999999999999998
-          ],
-          "rotation": [
-            0,
-            -0.014536812028507824,
-            0,
-            "XYZ"
-          ],
-          "type": "light",
-          "light": {
-            "type": "point",
-            "point": {
-              "color": "#DBC8A7",
-              "intensity": 1.65,
-              "distance": 10.4,
-              "decay": 0.2,
-              "castShadow": true,
-              "volumetricIntensity": 1
-            }
-          }
-        },
-        {
-          "id": "01fd530f-3860-4f46-a86b-cb37478b6ce8",
-          "name": "Blanket1",
-          "assetId": "a158aa8d-8944-47f9-9001-f3faae99613e",
-          "position": [
-            17.67477993324701,
-            8.614566496596153,
-            -17.77644918756357
-          ],
-          "scale": [
-            6.388647416015851,
-            5.6547486872798585,
-            5.654748687279851
-          ],
-          "rotation": [
-            2.6728221680055633,
-            -1.513880062167374,
-            2.6734750442347432,
-            "XYZ"
-          ],
-          "type": "asset_mesh",
-          "materialAssignments": [],
-          "castShadow": true,
-          "collisionDetection": true,
-          "physics": {
-            "type": 2,
-            "friction": 0.5,
-            "density": 1,
-            "restitution": 0.5,
-            "mass": 1
-          }
-        },
-        {
-          "id": "b1d94798-e433-4267-8f32-6226af87b18d",
-          "name": "Phone",
-          "assetId": "a155ed71-0180-444c-84dc-ad2864af6058",
-          "position": [
-            -15.292790049529827,
-            9.3434789427138,
-            3.4095709478889376
-          ],
-          "scale": [
-            1.2026088347752235,
-            1.2026088347752235,
-            1.2026088347752235
-          ],
-          "rotation": [
-            -3.141592653589793,
-            -0.6658630605769,
-            -3.141592653589793,
-            "XYZ"
-          ],
-          "type": "asset_mesh",
-          "materialAssignments": [
-            {
-              "color": "#00afe7",
-              "materialId": "a1583c3c-d648-423f-bb2a-cac65735c47c",
-              "name": "Material.002"
-            },
-            {
-              "color": "#332ebe",
-              "materialId": "a1583c3c-d648-423f-bb2a-cac65735c47c",
-              "name": "Material.012"
-            }
-          ],
-          "collisionDetection": true,
-          "physics": {
-            "type": 2,
-            "friction": 0.5,
-            "density": 1,
-            "restitution": 0.5,
-            "mass": 1
-          }
         }
       ]
     }
