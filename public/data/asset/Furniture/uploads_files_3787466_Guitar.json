@@ -1,0 +1,12 @@
+{
+  "name": "uploads_files_3787466_Guitar",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "a15eba9e-c1b2-4644-b897-40e261e7f570",
+  "fileKey": "uploads_files_3787466_Guitar.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\uploads_files_3787466_Guitar.fbx"
+}

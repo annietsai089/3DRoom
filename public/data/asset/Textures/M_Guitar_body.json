@@ -1,0 +1,115 @@
+{
+  "name": "M_Guitar body",
+  "type": "material",
+  "material": {
+    "type": "standard",
+    "params": {
+      "metalness": 0,
+      "opacity": 1
+    },
+    "side": 2,
+    "shaderParams": {
+      "color": {
+        "type": 10,
+        "value": "#ffffff"
+      },
+      "map": {
+        "type": 2,
+        "value": "a15ebcb3-ea68-47ad-844e-cd4a318716dd"
+      },
+      "opacity": {
+        "type": 1,
+        "value": 1
+      },
+      "alphaMap": {
+        "type": 2
+      },
+      "roughness": {
+        "type": 1,
+        "value": 0.85
+      },
+      "roughnessMap": {
+        "type": 2,
+        "value": "a15ebcb5-1b18-4808-a4a7-0a19fa7863c0"
+      },
+      "metalness": {
+        "type": 1,
+        "value": 0.75
+      },
+      "metalnessMap": {
+        "type": 2,
+        "value": "a15ebcb4-660a-4ce6-917f-ad5c78904abb"
+      },
+      "lightMap": {
+        "type": 2
+      },
+      "lightMapIntensity": {
+        "type": 1
+      },
+      "aoMap": {
+        "type": 2
+      },
+      "aoMapIntensity": {
+        "type": 1
+      },
+      "emissive": {
+        "type": 10,
+        "value": "#000000"
+      },
+      "emissiveIntensity": {
+        "type": 1
+      },
+      "emissiveMap": {
+        "type": 2
+      },
+      "bumpMap": {
+        "type": 2
+      },
+      "bumpScale": {
+        "type": 1
+      },
+      "normalMap": {
+        "type": 2,
+        "value": "a15ebcb4-bccc-4943-b71d-76b1e8ccbe0f"
+      },
+      "normalScale": {
+        "type": 6,
+        "value": [
+          0.8,
+          0.8
+        ]
+      },
+      "displacementMap": {
+        "type": 2
+      },
+      "displacementScale": {
+        "type": 1
+      },
+      "displacementBias": {
+        "type": 1
+      },
+      "envMap": {
+        "type": 2
+      },
+      "envMapIntensity": {
+        "type": 1
+      },
+      "refractionRatio": {
+        "type": 1
+      },
+      "heightMap": {
+        "type": 2,
+        "value": null
+      },
+      "heightScale": {
+        "type": 1,
+        "value": ""
+      },
+      "vertexColor": {
+        "type": 4,
+        "value": false
+      }
+    }
+  },
+  "id": "a15ebdf4-93d2-4fcc-ae7d-f50ea50b56e5"
+}

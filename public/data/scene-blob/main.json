@@ -295,7 +295,8 @@
             "density": 1,
             "restitution": 0.5,
             "mass": 1
-          }
+          },
+          "castShadow": true
         },
         {
           "id": "8f18f175-e526-4728-9e04-b9972aeefc9a",
@@ -600,7 +601,8 @@
             "restitution": 0.5,
             "mass": 1
           },
-          "castShadow": false
+          "castShadow": false,
+          "receiveShadow": true
         },
         {
           "id": "ea175f31-64a3-4d33-b32b-061748d0d130",
@@ -642,25 +644,26 @@
             "density": 1,
             "restitution": 0.5,
             "mass": 1
-          }
+          },
+          "castShadow": true
         },
         {
           "id": "11870254-2dcd-43b9-bc89-bcd7db7b13ef",
           "name": "Guitarstand",
           "assetId": "a15c1fae-ea1c-49ae-8446-7a3079d7210e",
           "position": [
-            -9.94837745511731,
-            7.914719100119209,
-            18.491378612268704
+            -9.981763539970103,
+            7.914719100119206,
+            18.300357176380317
           ],
           "scale": [
-            0.008924156796125873,
-            0.008924156796125873,
-            0.008924156796125873
+            0.01181829223784099,
+            0.011818292237840998,
+            0.01181829223784099
           ],
           "rotation": [
             0,
-            0,
+            0.49321360184961316,
             0,
             "XYZ"
           ],
@@ -679,7 +682,8 @@
             "density": 1,
             "restitution": 0.5,
             "mass": 1
-          }
+          },
+          "castShadow": true
         },
         {
           "id": "5b84b32c-1c0f-4b5a-8b5a-b68746a3d494",
@@ -716,7 +720,8 @@
             "density": 1,
             "restitution": 0.5,
             "mass": 1
-          }
+          },
+          "castShadow": true
         },
         {
           "id": "61cf2e89-a43f-48d4-a510-d325073a70a5",
@@ -753,7 +758,8 @@
             "density": 1,
             "restitution": 0.5,
             "mass": 1
-          }
+          },
+          "castShadow": true
         },
         {
           "id": "b1d94798-e433-4267-8f32-6226af87b18d",
@@ -1098,6 +1104,54 @@
           "castShadow": true
         }
       ]
+    },
+    {
+      "id": "dc7f94e1-8609-4f4c-87a7-b5e2633e298e",
+      "name": "uploads_files_3787466_Guitar",
+      "assetId": "a15eba9e-c1b2-4644-b897-40e261e7f570",
+      "position": [
+        196.45935458866907,
+        0.8958389226522568,
+        557.0025970432669
+      ],
+      "scale": [
+        0.09304572577389199,
+        0.09304572577389199,
+        0.09304572577389202
+      ],
+      "rotation": [
+        0.11803464124423055,
+        -0.9881938810798279,
+        0.0790252467901877,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#bcbcbc",
+          "materialId": "a15ebdf4-93d2-4fcc-ae7d-f50ea50b56e5",
+          "name": "Guitar_main_body"
+        },
+        {
+          "color": "#bcbcbc",
+          "materialId": "a15ebfb3-6f18-48e2-b963-a3e75f89119e",
+          "name": "tuner_buttton_parts"
+        },
+        {
+          "color": "#bcbcbc",
+          "materialId": "a15ebcd6-d1a4-4dfd-b3eb-71398b49cb10",
+          "name": "Guitar_top_body"
+        }
+      ],
+      "castShadow": true,
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
     }
   ]
 }
