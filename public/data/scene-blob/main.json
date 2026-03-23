@@ -4,198 +4,6 @@
   "sceneId": "uuvu76i94",
   "data": [
     {
-      "id": "01fd530f-3860-4f46-a86b-cb37478b6ce8",
-      "name": "Blanket1",
-      "assetId": "a158aa8d-8944-47f9-9001-f3faae99613e",
-      "position": [
-        223.17593823053116,
-        1.1523159113405168,
-        530.383776393635
-      ],
-      "scale": [
-        6.388647416015852,
-        5.654748687279858,
-        5.654748687279851
-      ],
-      "rotation": [
-        2.524620053282408,
-        -1.526361207757622,
-        2.525086009115721,
-        "XYZ"
-      ],
-      "type": "asset_mesh",
-      "materialAssignments": [],
-      "castShadow": true,
-      "collisionDetection": true,
-      "physics": {
-        "type": 2,
-        "friction": 0.5,
-        "density": 1,
-        "restitution": 0.5,
-        "mass": 1
-      }
-    },
-    {
-      "id": "05137537-6090-41c7-852d-53c539fc0142",
-      "name": "Box",
-      "position": [
-        213.15459585743588,
-        22.657475505246605,
-        515.0211893800143
-      ],
-      "scale": [
-        23.198850506645705,
-        1.6102851263644287,
-        3.9698585518093465
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        "XYZ"
-      ],
-      "type": "shape_mesh",
-      "materialAssignments": [
-        {
-          "color": "#aaaaaa",
-          "materialId": "a1581285-456a-40e8-befc-8753b381f2fd",
-          "name": "Default"
-        }
-      ],
-      "shape": "box",
-      "physics": {
-        "type": 2,
-        "friction": 0.5,
-        "density": 1,
-        "restitution": 0.5,
-        "mass": 1
-      },
-      "castShadow": false
-    },
-    {
-      "id": "11870254-2dcd-43b9-bc89-bcd7db7b13ef",
-      "name": "Guitarstand",
-      "assetId": "a15c1fae-ea1c-49ae-8446-7a3079d7210e",
-      "position": [
-        195.61126271152514,
-        0.4384483149488241,
-        557.4236833707041
-      ],
-      "scale": [
-        0.008924156796125873,
-        0.008924156796125873,
-        0.008924156796125873
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        "XYZ"
-      ],
-      "type": "asset_mesh",
-      "materialAssignments": [
-        {
-          "color": "#e7e7e7",
-          "materialId": "a15c20cd-069a-448f-83d2-0faae0106e48",
-          "name": "Material"
-        }
-      ],
-      "collisionDetection": true,
-      "physics": {
-        "type": 2,
-        "friction": 0.5,
-        "density": 1,
-        "restitution": 0.5,
-        "mass": 1
-      }
-    },
-    {
-      "id": "1d7979d7-4bb7-4abb-ba97-eb4fd5b25055",
-      "name": "Point Light",
-      "assetId": "",
-      "position": [
-        193.69806086163925,
-        7.659560531888263,
-        552.181577092088
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        "XYZ"
-      ],
-      "type": "light",
-      "light": {
-        "type": "point",
-        "point": {
-          "color": "#DBC8A7",
-          "intensity": 2.15,
-          "distance": 10.4,
-          "decay": 0.2,
-          "castShadow": true,
-          "volumetricIntensity": 1
-        }
-      }
-    },
-    {
-      "id": "23bb7ee0-44c7-4711-9523-7a09f76e0868",
-      "name": "uploads_files_2764985_sanseweria",
-      "assetId": "a15810be-2044-482c-84b4-64c80572db9e",
-      "position": [
-        194.21202996255693,
-        0.5291289178098657,
-        539.6370639995259
-      ],
-      "scale": [
-        0.04021870460952007,
-        0.04152089606670978,
-        0.04021870460952007
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        "XYZ"
-      ],
-      "type": "asset_mesh",
-      "materialAssignments": [
-        {
-          "color": "#e7e7e7",
-          "materialId": "a1582c07-029e-49e9-835b-5ae1f0371391",
-          "name": "Material.004"
-        },
-        {
-          "color": "#e7e7e7",
-          "materialId": "a1582ac8-c6a6-4093-9ce1-cbd600b29913",
-          "name": "Material.001"
-        },
-        {
-          "color": "#e7e7e7",
-          "materialId": "a1581e2f-4820-44d6-ad3d-622e6bdcdf87",
-          "name": "Material.003"
-        },
-        {
-          "color": "#e7e7e7",
-          "materialId": "a1582ac8-c6a6-4093-9ce1-cbd600b29913",
-          "name": "Material.002"
-        }
-      ],
-      "collisionDetection": true,
-      "physics": {
-        "type": 2,
-        "friction": 0.5,
-        "density": 1,
-        "restitution": 0.5,
-        "mass": 1
-      },
-      "castShadow": true
-    },
-    {
       "id": "270826d6-59b8-4245-b524-18f7454abe27",
       "name": "Landscape",
       "position": [
@@ -249,228 +57,12 @@
       }
     },
     {
-      "id": "38957d1d-9550-4996-87b9-7448ea43591b",
-      "name": "Floor Lamp 2",
-      "assetId": "a1582421-557a-4b9b-a544-cbab24c03032",
-      "position": [
-        195.149581106441,
-        0.5333019688144316,
-        516.1544410860394
-      ],
-      "scale": [
-        6.755824487657987,
-        6.755824487657987,
-        6.755824487657987
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        "XYZ"
-      ],
-      "type": "asset_mesh",
-      "materialAssignments": [
-        {
-          "color": "#e7e7e7",
-          "materialId": "a1582a83-4590-4017-8496-2b99b23dfc37",
-          "name": "Cupula"
-        },
-        {
-          "color": "#e7e7e7",
-          "materialId": "a1593aeb-c73a-4e80-93c2-3506dfecb6a9",
-          "name": "Emissor"
-        },
-        {
-          "color": "#ffffff",
-          "materialId": "a1581285-456a-40e8-befc-8753b381f2fd",
-          "name": "Foot"
-        },
-        {
-          "color": "#e7e7e7",
-          "materialId": "a1583c3c-d648-423f-bb2a-cac65735c47c",
-          "name": "Cromo"
-        },
-        {
-          "color": "#161616",
-          "materialId": "a1583c3c-d648-423f-bb2a-cac65735c47c",
-          "name": "Base_lamp"
-        }
-      ],
-      "collisionDetection": true,
-      "physics": {
-        "type": 2,
-        "friction": 0.5,
-        "density": 1,
-        "restitution": 0.5,
-        "mass": 1
-      }
-    },
-    {
-      "id": "469f9f82-69e1-413f-8581-12272fc63278",
-      "name": "Desk Lamp 1",
-      "assetId": "a1593991-4054-42da-bcf3-9b3bcb04d79b",
-      "position": [
-        193.80588395022673,
-        5.650203127238576,
-        552.5267848667083
-      ],
-      "scale": [
-        0.05576046715468658,
-        0.0557604671546866,
-        0.05576046715468658
-      ],
-      "rotation": [
-        0,
-        1.384494169623431,
-        0,
-        "XYZ"
-      ],
-      "type": "asset_mesh",
-      "materialAssignments": [
-        {
-          "color": "#ffffff",
-          "materialId": "a1592cc8-557e-40e5-8cae-17b6462b4e49",
-          "name": "Lamp2"
-        },
-        {
-          "color": "#ffffff",
-          "materialId": "a1593aeb-c73a-4e80-93c2-3506dfecb6a9",
-          "name": "Bulb"
-        }
-      ],
-      "collisionDetection": true,
-      "physics": {
-        "type": 2,
-        "friction": 0.5,
-        "density": 1,
-        "restitution": 0.5,
-        "mass": 1
-      }
-    },
-    {
-      "id": "56066c41-29cc-4702-88b4-9065a2bff6fe",
-      "name": "Console",
-      "assetId": "a155edd6-1fac-4a2d-95af-6e19afa8f15b",
-      "position": [
-        205.7891770530963,
-        -1.1685582233498761,
-        528.617452906394
-      ],
-      "scale": [
-        3.466736864142085,
-        3.466736864142084,
-        3.466736864142085
-      ],
-      "rotation": [
-        0,
-        1.5677490440514552,
-        0,
-        "XYZ"
-      ],
-      "type": "asset_mesh",
-      "materialAssignments": [
-        {
-          "color": "#ffffff",
-          "materialId": "a1581285-456a-40e8-befc-8753b381f2fd",
-          "name": "Cabinet"
-        },
-        {
-          "color": "#ffffff",
-          "materialId": "a1583c3c-d648-423f-bb2a-cac65735c47c",
-          "name": "Dvd"
-        }
-      ],
-      "collisionDetection": true,
-      "physics": {
-        "type": 2,
-        "friction": 0.5,
-        "density": 1,
-        "restitution": 0.5,
-        "mass": 1
-      },
-      "castShadow": true
-    },
-    {
-      "id": "5b84b32c-1c0f-4b5a-8b5a-b68746a3d494",
-      "name": "Painting",
-      "assetId": "a155ed49-d40c-402f-9c50-ee6d023e64a4",
-      "position": [
-        205.62913357447812,
-        30.12328749430052,
-        557.9100934816076
-      ],
-      "scale": [
-        6.887933280710316,
-        6.887933280710343,
-        6.132511155998937
-      ],
-      "rotation": [
-        3.1246557877270646,
-        0,
-        0,
-        "XYZ"
-      ],
-      "type": "asset_mesh",
-      "materialAssignments": [
-        {
-          "color": "#ffffff",
-          "materialId": "a1587744-6f12-404a-863b-a95edaeca983",
-          "name": "imgg"
-        }
-      ],
-      "collisionDetection": true,
-      "physics": {
-        "type": 2,
-        "friction": 0.5,
-        "density": 1,
-        "restitution": 0.5,
-        "mass": 1
-      }
-    },
-    {
-      "id": "61cf2e89-a43f-48d4-a510-d325073a70a5",
-      "name": "Painting",
-      "assetId": "a155ed49-d40c-402f-9c50-ee6d023e64a4",
-      "position": [
-        202.28825681997375,
-        26.886403480762887,
-        549.7728906619052
-      ],
-      "scale": [
-        5.416276536249052,
-        5.416276536249052,
-        4.971937623802905
-      ],
-      "rotation": [
-        3.141592653589793,
-        0,
-        0,
-        "XYZ"
-      ],
-      "type": "asset_mesh",
-      "materialAssignments": [
-        {
-          "color": "#ffffff",
-          "materialId": "a158754f-1612-4ab1-860c-acb86d6a62d8",
-          "name": "imgg"
-        }
-      ],
-      "collisionDetection": true,
-      "physics": {
-        "type": 2,
-        "friction": 0.5,
-        "density": 1,
-        "restitution": 0.5,
-        "mass": 1
-      }
-    },
-    {
       "id": "6a0a5b15-4818-48db-ba02-2c6416ad89f0",
       "name": "Ambient Light",
       "assetId": "",
       "position": [
         251.77529573287177,
-        20.760731599687546,
+        1.6852166660943944,
         533.524340621162
       ],
       "scale": [
@@ -488,233 +80,9 @@
       "light": {
         "type": "ambient",
         "ambient": {
-          "color": "#c2c1bd",
-          "intensity": 0.25,
-          "volumetricIntensity": 1
-        }
-      }
-    },
-    {
-      "id": "79474d83-402f-4574-ad1a-3baea2eea75d",
-      "name": "Plant1",
-      "assetId": "a155ed9d-69d2-40aa-ada4-ab1acd8b5400",
-      "position": [
-        200.14279371726263,
-        -7.476270785170384,
-        554.5712244052469
-      ],
-      "scale": [
-        2.9404569275786834,
-        2.9404569275786834,
-        2.9404569275786834
-      ],
-      "rotation": [
-        0,
-        0.0028621147926342246,
-        0,
-        "XYZ"
-      ],
-      "type": "asset_mesh",
-      "materialAssignments": [],
-      "collisionDetection": true,
-      "physics": {
-        "type": 2,
-        "friction": 0.5,
-        "density": 1,
-        "restitution": 0.5,
-        "mass": 1
-      }
-    },
-    {
-      "id": "7f56cf34-dbd3-4597-9ff7-9c9931fe5e28",
-      "name": "Curtain1",
-      "assetId": "a1582902-f94a-455f-b051-0fac1ffac257",
-      "position": [
-        230.01162096348978,
-        -0.24572726804723546,
-        536.9859425217622
-      ],
-      "scale": [
-        8.397066425949447,
-        9.535869294005524,
-        8.876223040630835
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        "XYZ"
-      ],
-      "type": "asset_mesh",
-      "materialAssignments": [
-        {
-          "color": "#ffffff",
-          "materialId": "a1583e39-3176-4f6f-a678-058791237e45",
-          "name": "Claret red fabric"
-        }
-      ],
-      "collisionDetection": true,
-      "physics": {
-        "type": 2,
-        "friction": 0.5,
-        "density": 1,
-        "restitution": 0.5,
-        "mass": 1
-      },
-      "castShadow": true
-    },
-    {
-      "id": "8bcc91d1-b94a-4c5f-8ea7-587d3e271ee8",
-      "name": "uploads_files_2950893_PC",
-      "assetId": "a158494b-e842-42f8-9d68-a0ae42b882ed",
-      "position": [
-        193.5313546307966,
-        5.714056378100874,
-        547.8485096388265
-      ],
-      "scale": [
-        0.00700896122040318,
-        0.007008961220403185,
-        0.007008961220403187
-      ],
-      "rotation": [
-        -1.5707963267948963,
-        5.551115123125783e-17,
-        1.5707963267948961,
-        "XYZ"
-      ],
-      "type": "asset_mesh",
-      "materialAssignments": [
-        {
-          "color": "#ffffff",
-          "materialId": "a1583e0a-06ee-4063-a4e6-79808c71257d",
-          "name": "PCBody"
-        },
-        {
-          "color": "#5c6262",
-          "materialId": "a1584b9d-0806-4432-be2b-0996827f9d9b",
-          "name": "KeyboardKeys"
-        },
-        {
-          "color": "#e7e7e7",
-          "materialId": "a1583c3c-d648-423f-bb2a-cac65735c47c",
-          "name": "KeyboardLine"
-        }
-      ],
-      "collisionDetection": true,
-      "physics": {
-        "type": 2,
-        "friction": 0.5,
-        "density": 1,
-        "restitution": 0.5,
-        "mass": 1
-      }
-    },
-    {
-      "id": "8f18f175-e526-4728-9e04-b9972aeefc9a",
-      "name": "CoffeeTable",
-      "assetId": "a158228b-275e-4280-952b-0d59be201af5",
-      "position": [
-        212.4965550722594,
-        0.889636531608625,
-        529.0690844870313
-      ],
-      "scale": [
-        0.07311446895034829,
-        0.07311446895034829,
-        0.09139542250422164
-      ],
-      "rotation": [
-        0,
-        0.000001940912061356186,
-        0,
-        "XYZ"
-      ],
-      "type": "asset_mesh",
-      "materialAssignments": [
-        {
-          "color": "#bcbcbc",
-          "materialId": "a1581285-456a-40e8-befc-8753b381f2fd",
-          "name": "02 - Default"
-        },
-        {
-          "color": "#1c1c1c",
-          "materialId": "a1583c3c-d648-423f-bb2a-cac65735c47c",
-          "name": "02 - Default"
-        }
-      ],
-      "collisionDetection": true,
-      "physics": {
-        "type": 2,
-        "friction": 0.5,
-        "density": 1,
-        "restitution": 0.5,
-        "mass": 1
-      },
-      "castShadow": true
-    },
-    {
-      "id": "9b4d745b-5d74-4cc4-915e-b96d98775301",
-      "name": "ASSET",
-      "assetId": "a1581be9-1aa0-4506-961f-6ec9a638b66d",
-      "position": [
-        201.23396467927793,
-        0.526897529846892,
-        547.7560085097874
-      ],
-      "scale": [
-        6.684097805540403,
-        6.684097805540415,
-        6.684097805540403
-      ],
-      "rotation": [
-        8.885769886906583e-18,
-        -0.5779173383904714,
-        -1.3916360631842544e-16,
-        "XYZ"
-      ],
-      "type": "asset_mesh",
-      "materialAssignments": [],
-      "collisionDetection": true,
-      "physics": {
-        "type": 2,
-        "friction": 0.5,
-        "density": 1,
-        "restitution": 0.5,
-        "mass": 1
-      },
-      "castShadow": true
-    },
-    {
-      "id": "ad9e3dee-ce5d-463b-ab3c-e10b09792e56",
-      "name": "Point Light",
-      "assetId": "",
-      "position": [
-        195.87351361446926,
-        9.122361939350077,
-        515.6235569547346
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        "XYZ"
-      ],
-      "type": "light",
-      "light": {
-        "type": "point",
-        "point": {
-          "color": "#DBC8A7",
-          "intensity": 1.65,
-          "distance": 10.4,
-          "decay": 0.2,
-          "castShadow": true,
-          "volumetricIntensity": 1
+          "color": "#B8C5AB",
+          "intensity": 0.2,
+          "volumetricIntensity": 0.4
         }
       }
     },
@@ -724,8 +92,8 @@
       "type": "global_fog",
       "fog": {
         "type": "density",
-        "color": "#b8f8ff",
-        "density": 0.002,
+        "color": "#B8C5AB",
+        "density": 0.003,
         "near": 100,
         "far": 1000
       }
@@ -764,312 +132,972 @@
           "exposure": 1
         },
         "environment": {
-          "textureId": "a1582aa2-ff7a-411d-b94d-bec6c5374976",
-          "intensity": 0.46
+          "textureId": "a1583bac-5dde-4f0f-b4cb-465c24e8db86",
+          "intensity": 0.1
         }
       }
     },
     {
-      "id": "b1d94798-e433-4267-8f32-6226af87b18d",
-      "name": "Phone",
-      "assetId": "a155ed71-0180-444c-84dc-ad2864af6058",
-      "position": [
-        190.3180284628145,
-        1.867208157543416,
-        542.5638160440328
-      ],
+      "id": "d1619019-5d24-4a72-bd30-83b57c2df04b",
+      "name": "Room1",
+      "type": "group",
+      "collisionDetection": false,
       "scale": [
-        1.2026088347752237,
-        1.2026088347752235,
-        1.2026088347752237
-      ],
-      "rotation": [
-        -3.141592653589793,
-        -0.6803998726054079,
-        -3.141592653589793,
-        "XYZ"
-      ],
-      "type": "asset_mesh",
-      "materialAssignments": [
-        {
-          "color": "#00afe7",
-          "materialId": "a1583c3c-d648-423f-bb2a-cac65735c47c",
-          "name": "Material.002"
-        },
-        {
-          "color": "#332ebe",
-          "materialId": "a1583c3c-d648-423f-bb2a-cac65735c47c",
-          "name": "Material.012"
-        }
-      ],
-      "collisionDetection": true,
-      "physics": {
-        "type": 2,
-        "friction": 0.5,
-        "density": 1,
-        "restitution": 0.5,
-        "mass": 1
-      }
-    },
-    {
-      "id": "cbc72225-5223-420a-a3f1-8ae27d06ecff",
-      "name": "Carpet",
-      "assetId": "a155edd5-9e9c-411b-a2fc-605de3deacab",
-      "position": [
-        207.60478865301235,
-        -2.3857410987160903,
-        533.5573002730969
-      ],
-      "scale": [
-        0.20007201717360595,
-        0.2063215256282162,
-        0.20015525054039984
+        1,
+        1,
+        1
       ],
       "rotation": [
         0,
-        0,
+        0.014536812028507824,
         0,
         "XYZ"
       ],
-      "type": "asset_mesh",
-      "materialAssignments": [
-        {
-          "color": "#ffffff",
-          "materialId": "a1582a83-4590-4017-8496-2b99b23dfc37",
-          "name": "Material.023"
-        }
-      ],
-      "collisionDetection": true,
-      "physics": {
-        "type": 2,
-        "friction": 0.5,
-        "density": 1,
-        "restitution": 0.5,
-        "mass": 1
-      }
-    },
-    {
-      "id": "cddad05b-0405-4bc1-ad50-7e5285f7e3fd",
-      "name": "chess",
-      "assetId": "a155ee45-8626-4a34-8f38-15e1659d324e",
       "position": [
-        218.96385317839903,
-        -2.353525884460837,
-        526.7881831238585
+        205.55964016664245,
+        -7.476270785170384,
+        538.9323047584354
       ],
-      "scale": [
-        3.027085212194808,
-        3.027085212194807,
-        3.027085212194808
-      ],
-      "rotation": [
-        0,
-        0.0000019409120613561875,
-        0,
-        "XYZ"
-      ],
-      "type": "asset_mesh",
-      "materialAssignments": [
+      "children": [
         {
-          "color": "#ffffff",
-          "materialId": "a1583e0a-06ee-4063-a4e6-79808c71257d",
-          "name": "White chessboard board.001"
+          "id": "9b4d745b-5d74-4cc4-915e-b96d98775301",
+          "name": "ASSET",
+          "assetId": "a1581be9-1aa0-4506-961f-6ec9a638b66d",
+          "position": [
+            -4.325675487364492,
+            8.003168315017279,
+            8.823703751352127
+          ],
+          "scale": [
+            6.684097805540403,
+            6.684097805540415,
+            6.684097805540403
+          ],
+          "rotation": [
+            -3.141592653589793,
+            -0.03520400463325095,
+            -3.141592653589793,
+            "XYZ"
+          ],
+          "type": "asset_mesh",
+          "materialAssignments": [],
+          "collisionDetection": true,
+          "physics": {
+            "type": 2,
+            "friction": 0.5,
+            "density": 1,
+            "restitution": 0.5,
+            "mass": 1
+          },
+          "castShadow": true
         },
         {
-          "color": "#ffffff",
-          "materialId": "a1583c3c-d648-423f-bb2a-cac65735c47c",
-          "name": "Black house chessboard.001"
+          "id": "05137537-6090-41c7-852d-53c539fc0142",
+          "name": "Box",
+          "position": [
+            7.594955690793398,
+            30.364011754702283,
+            -23.91111537842096
+          ],
+          "scale": [
+            23.1988505066457,
+            1.610285126364429,
+            3.9698585518093465
+          ],
+          "rotation": [
+            0,
+            2.3928405942077052e-18,
+            0,
+            "XYZ"
+          ],
+          "type": "shape_mesh",
+          "materialAssignments": [
+            {
+              "color": "#aaaaaa",
+              "materialId": "a1581285-456a-40e8-befc-8753b381f2fd",
+              "name": "Default"
+            }
+          ],
+          "shape": "box",
+          "physics": {
+            "type": 2,
+            "friction": 0.5,
+            "density": 1,
+            "restitution": 0.5,
+            "mass": 1
+          },
+          "castShadow": true
         },
         {
-          "color": "#ffffff",
-          "materialId": "a1583c3c-d648-423f-bb2a-cac65735c47c",
-          "name": "Ceramic chess piece black.001"
+          "id": "cbc72225-5223-420a-a3f1-8ae27d06ecff",
+          "name": "Carpet",
+          "assetId": "a155edd5-9e9c-411b-a2fc-605de3deacab",
+          "position": [
+            2.0451484863698965,
+            5.090529686454294,
+            -5.375004485338536
+          ],
+          "scale": [
+            0.20007201717360595,
+            0.2063215256282162,
+            0.20015525054039984
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "type": "asset_mesh",
+          "materialAssignments": [
+            {
+              "color": "#ffffff",
+              "materialId": "a1582a83-4590-4017-8496-2b99b23dfc37",
+              "name": "Material.023"
+            }
+          ],
+          "collisionDetection": true,
+          "physics": {
+            "type": 2,
+            "friction": 0.5,
+            "density": 1,
+            "restitution": 0.5,
+            "mass": 1
+          }
         },
         {
-          "color": "#ffffff",
-          "materialId": "a1583e0a-06ee-4063-a4e6-79808c71257d",
-          "name": "Ceramic white plaid piece.001"
+          "id": "8f18f175-e526-4728-9e04-b9972aeefc9a",
+          "name": "CoffeeTable",
+          "assetId": "a158228b-275e-4280-952b-0d59be201af5",
+          "position": [
+            6.936914905616959,
+            8.365907316779008,
+            -9.863220271404089
+          ],
+          "scale": [
+            0.07311446895034829,
+            0.07311446895034829,
+            0.09139542250422164
+          ],
+          "rotation": [
+            0,
+            0.000001940912061356186,
+            0,
+            "XYZ"
+          ],
+          "type": "asset_mesh",
+          "materialAssignments": [
+            {
+              "color": "#bcbcbc",
+              "materialId": "a1581285-456a-40e8-befc-8753b381f2fd",
+              "name": "02 - Default"
+            },
+            {
+              "color": "#1c1c1c",
+              "materialId": "a1583c3c-d648-423f-bb2a-cac65735c47c",
+              "name": "02 - Default"
+            }
+          ],
+          "collisionDetection": true,
+          "physics": {
+            "type": 2,
+            "friction": 0.5,
+            "density": 1,
+            "restitution": 0.5,
+            "mass": 1
+          },
+          "castShadow": true
+        },
+        {
+          "id": "56066c41-29cc-4702-88b4-9065a2bff6fe",
+          "name": "Console",
+          "assetId": "a155edd6-1fac-4a2d-95af-6e19afa8f15b",
+          "position": [
+            0.22953688645384318,
+            6.307712561820508,
+            -10.314851852041443
+          ],
+          "scale": [
+            3.466736864142085,
+            3.466736864142084,
+            3.466736864142085
+          ],
+          "rotation": [
+            0,
+            1.5677490440514552,
+            0,
+            "XYZ"
+          ],
+          "type": "asset_mesh",
+          "materialAssignments": [
+            {
+              "color": "#ffffff",
+              "materialId": "a1581285-456a-40e8-befc-8753b381f2fd",
+              "name": "Cabinet"
+            },
+            {
+              "color": "#ffffff",
+              "materialId": "a1583c3c-d648-423f-bb2a-cac65735c47c",
+              "name": "Dvd"
+            }
+          ],
+          "collisionDetection": true,
+          "physics": {
+            "type": 2,
+            "friction": 0.5,
+            "density": 1,
+            "restitution": 0.5,
+            "mass": 1
+          },
+          "castShadow": true
+        },
+        {
+          "id": "7f56cf34-dbd3-4597-9ff7-9c9931fe5e28",
+          "name": "Curtain1",
+          "assetId": "a1582902-f94a-455f-b051-0fac1ffac257",
+          "position": [
+            24.451980796847323,
+            7.230543517123149,
+            -1.946362236673167
+          ],
+          "scale": [
+            8.397066425949447,
+            9.535869294005524,
+            8.876223040630835
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "type": "asset_mesh",
+          "materialAssignments": [
+            {
+              "color": "#ffffff",
+              "materialId": "a1583e39-3176-4f6f-a678-058791237e45",
+              "name": "Claret red fabric"
+            }
+          ],
+          "collisionDetection": true,
+          "physics": {
+            "type": 2,
+            "friction": 0.5,
+            "density": 1,
+            "restitution": 0.5,
+            "mass": 1
+          },
+          "castShadow": true
+        },
+        {
+          "id": "469f9f82-69e1-413f-8581-12272fc63278",
+          "name": "Desk Lamp 1",
+          "assetId": "a1593991-4054-42da-bcf3-9b3bcb04d79b",
+          "position": [
+            -11.753756216415724,
+            13.126473912408962,
+            13.594480108272933
+          ],
+          "scale": [
+            0.05576046715468658,
+            0.0557604671546866,
+            0.05576046715468658
+          ],
+          "rotation": [
+            0,
+            1.384494169623431,
+            0,
+            "XYZ"
+          ],
+          "type": "asset_mesh",
+          "materialAssignments": [
+            {
+              "color": "#ffffff",
+              "materialId": "a1592cc8-557e-40e5-8cae-17b6462b4e49",
+              "name": "Lamp2"
+            },
+            {
+              "color": "#ffffff",
+              "materialId": "a1593aeb-c73a-4e80-93c2-3506dfecb6a9",
+              "name": "Bulb"
+            }
+          ],
+          "collisionDetection": true,
+          "physics": {
+            "type": 2,
+            "friction": 0.5,
+            "density": 1,
+            "restitution": 0.5,
+            "mass": 1
+          }
+        },
+        {
+          "id": "f6ac416b-c611-4199-a1cd-8657c328d5cb",
+          "name": "Desk",
+          "assetId": "a155ed4a-1d72-4381-92d2-cb6a4de9ed59",
+          "position": [
+            -3.7329781734345886,
+            6.943679015498663,
+            13.082220294483477
+          ],
+          "scale": [
+            5.412306304391743,
+            5.412306304391743,
+            5.412306304391743
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "type": "asset_mesh",
+          "materialAssignments": [
+            {
+              "color": "#dfa585",
+              "materialId": "a1581285-456a-40e8-befc-8753b381f2fd",
+              "name": "Wood.002"
+            }
+          ],
+          "collisionDetection": true,
+          "physics": {
+            "type": 2,
+            "friction": 0.5,
+            "density": 1,
+            "restitution": 0.5,
+            "mass": 1
+          },
+          "castShadow": true
+        },
+        {
+          "id": "38957d1d-9550-4996-87b9-7448ea43591b",
+          "name": "Floor Lamp 2",
+          "assetId": "a1582421-557a-4b9b-a544-cbab24c03032",
+          "position": [
+            -10.170591347031177,
+            8.009572753984816,
+            -22.544803571043758
+          ],
+          "scale": [
+            6.443044586728549,
+            6.443044586728549,
+            6.443044586728549
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "type": "asset_mesh",
+          "materialAssignments": [
+            {
+              "color": "#e7e7e7",
+              "materialId": "a1582a83-4590-4017-8496-2b99b23dfc37",
+              "name": "Cupula"
+            },
+            {
+              "color": "#e7e7e7",
+              "materialId": "a15e7c14-f3e4-4aec-90f4-9e0baa5e4e27",
+              "name": "Emissor"
+            },
+            {
+              "color": "#ffffff",
+              "materialId": "a1581285-456a-40e8-befc-8753b381f2fd",
+              "name": "Foot"
+            },
+            {
+              "color": "#e7e7e7",
+              "materialId": "a1583c3c-d648-423f-bb2a-cac65735c47c",
+              "name": "Cromo"
+            },
+            {
+              "color": "#161616",
+              "materialId": "a1583c3c-d648-423f-bb2a-cac65735c47c",
+              "name": "Base_lamp"
+            }
+          ],
+          "collisionDetection": true,
+          "physics": {
+            "type": 2,
+            "friction": 0.5,
+            "density": 1,
+            "restitution": 0.5,
+            "mass": 1
+          },
+          "castShadow": false
+        },
+        {
+          "id": "f190cbe2-1717-446d-b036-128cc3b2b61b",
+          "name": "Floor",
+          "assetId": "a155ec46-1a02-45de-a979-36500284ccab",
+          "position": [
+            0.6697820534226935,
+            3.9363684270624613,
+            -3.337709775651547
+          ],
+          "scale": [
+            0.24368416206895438,
+            0.3029215939152642,
+            0.24368416206895438
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "type": "asset_mesh",
+          "materialAssignments": [
+            {
+              "color": "#ffffff",
+              "materialId": "a15e751d-b1f2-4ff8-8ebe-a7f48a7f6ea9",
+              "name": "Material.017"
+            },
+            {
+              "color": "#ffffff",
+              "materialId": "a1586a1e-ecb8-41ab-82fc-0d1806a0ec31",
+              "name": "Material.019"
+            },
+            {
+              "color": "#e7e7e7",
+              "materialId": "a1582ba2-4408-42d4-98fa-61720c7adcc0",
+              "name": "Material.021"
+            }
+          ],
+          "collisionDetection": true,
+          "physics": {
+            "type": 2,
+            "friction": 0.5,
+            "density": 1,
+            "restitution": 0.5,
+            "mass": 1
+          },
+          "castShadow": true
+        },
+        {
+          "id": "ea175f31-64a3-4d33-b32b-061748d0d130",
+          "name": "Garren_Sofa",
+          "assetId": "a15839ee-0f4c-4ac8-9af4-4c7ba166e455",
+          "position": [
+            17.114897685536846,
+            7.1099169547003225,
+            -9.697601344615805
+          ],
+          "scale": [
+            0.00874142611232073,
+            0.008741426112320731,
+            0.00874142611232073
+          ],
+          "rotation": [
+            -2.7369110631344083e-48,
+            -1.5707963267948966,
+            0,
+            "XYZ"
+          ],
+          "type": "asset_mesh",
+          "materialAssignments": [
+            {
+              "color": "#bcbcbc",
+              "materialId": "a158a092-b70c-4bb2-adde-7b1b34d14a1d",
+              "name": "fabric_VMT"
+            },
+            {
+              "color": "#bcbcbc",
+              "materialId": "a1581285-456a-40e8-befc-8753b381f2fd",
+              "name": "wood_VMT"
+            }
+          ],
+          "collisionDetection": true,
+          "physics": {
+            "type": 2,
+            "friction": 0.5,
+            "density": 1,
+            "restitution": 0.5,
+            "mass": 1
+          }
+        },
+        {
+          "id": "11870254-2dcd-43b9-bc89-bcd7db7b13ef",
+          "name": "Guitarstand",
+          "assetId": "a15c1fae-ea1c-49ae-8446-7a3079d7210e",
+          "position": [
+            -9.94837745511731,
+            7.914719100119209,
+            18.491378612268704
+          ],
+          "scale": [
+            0.008924156796125873,
+            0.008924156796125873,
+            0.008924156796125873
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "type": "asset_mesh",
+          "materialAssignments": [
+            {
+              "color": "#e7e7e7",
+              "materialId": "a15c20cd-069a-448f-83d2-0faae0106e48",
+              "name": "Material"
+            }
+          ],
+          "collisionDetection": true,
+          "physics": {
+            "type": 2,
+            "friction": 0.5,
+            "density": 1,
+            "restitution": 0.5,
+            "mass": 1
+          }
+        },
+        {
+          "id": "5b84b32c-1c0f-4b5a-8b5a-b68746a3d494",
+          "name": "Painting",
+          "assetId": "a155ed49-d40c-402f-9c50-ee6d023e64a4",
+          "position": [
+            0.06949340783566527,
+            37.599558279470905,
+            18.97778872317224
+          ],
+          "scale": [
+            6.887933280710316,
+            6.887933280710343,
+            6.132511155998937
+          ],
+          "rotation": [
+            3.1246557877270646,
+            0,
+            0,
+            "XYZ"
+          ],
+          "type": "asset_mesh",
+          "materialAssignments": [
+            {
+              "color": "#ffffff",
+              "materialId": "a1587744-6f12-404a-863b-a95edaeca983",
+              "name": "imgg"
+            }
+          ],
+          "collisionDetection": true,
+          "physics": {
+            "type": 2,
+            "friction": 0.5,
+            "density": 1,
+            "restitution": 0.5,
+            "mass": 1
+          }
+        },
+        {
+          "id": "61cf2e89-a43f-48d4-a510-d325073a70a5",
+          "name": "Painting",
+          "assetId": "a155ed49-d40c-402f-9c50-ee6d023e64a4",
+          "position": [
+            -3.2713833466686992,
+            34.36267426593327,
+            10.840585903469787
+          ],
+          "scale": [
+            5.416276536249052,
+            5.416276536249052,
+            4.971937623802905
+          ],
+          "rotation": [
+            3.141592653589793,
+            0,
+            0,
+            "XYZ"
+          ],
+          "type": "asset_mesh",
+          "materialAssignments": [
+            {
+              "color": "#ffffff",
+              "materialId": "a158754f-1612-4ab1-860c-acb86d6a62d8",
+              "name": "imgg"
+            }
+          ],
+          "collisionDetection": true,
+          "physics": {
+            "type": 2,
+            "friction": 0.5,
+            "density": 1,
+            "restitution": 0.5,
+            "mass": 1
+          }
+        },
+        {
+          "id": "79474d83-402f-4574-ad1a-3baea2eea75d",
+          "name": "Plant1",
+          "assetId": "a155ed9d-69d2-40aa-ada4-ab1acd8b5400",
+          "position": [
+            -5.416846449379818,
+            0,
+            15.638919646811473
+          ],
+          "scale": [
+            2.9404569275786834,
+            2.9404569275786834,
+            2.9404569275786834
+          ],
+          "rotation": [
+            0,
+            0.0028621147926342246,
+            0,
+            "XYZ"
+          ],
+          "type": "asset_mesh",
+          "materialAssignments": [],
+          "collisionDetection": true,
+          "physics": {
+            "type": 2,
+            "friction": 0.5,
+            "density": 1,
+            "restitution": 0.5,
+            "mass": 1
+          },
+          "castShadow": true
+        },
+        {
+          "id": "e1595628-32a6-4f98-809a-dc1686ef914c",
+          "name": "TV2",
+          "assetId": "a155edd5-dbd2-47b2-af15-e90db530272a",
+          "position": [
+            -0.5214187092898896,
+            7.185841228856332,
+            -10.268431587815144
+          ],
+          "scale": [
+            3.098271080365639,
+            3.0982710803656386,
+            3.098271080365639
+          ],
+          "rotation": [
+            0,
+            1.5707963267948966,
+            0,
+            "XYZ"
+          ],
+          "type": "asset_mesh",
+          "materialAssignments": [
+            {
+              "color": "#ffffff",
+              "materialId": "a1581d65-f11e-41ce-b4c2-0950312a07a5",
+              "name": "TV"
+            },
+            {
+              "color": "#ffffff",
+              "materialId": "a1583c3c-d648-423f-bb2a-cac65735c47c",
+              "name": "Soundbar"
+            }
+          ],
+          "collisionDetection": true,
+          "physics": {
+            "type": 2,
+            "friction": 0.5,
+            "density": 1,
+            "restitution": 0.5,
+            "mass": 1
+          },
+          "castShadow": true
+        },
+        {
+          "id": "cddad05b-0405-4bc1-ad50-7e5285f7e3fd",
+          "name": "chess",
+          "assetId": "a155ee45-8626-4a34-8f38-15e1659d324e",
+          "position": [
+            13.404213011756582,
+            5.122744900709547,
+            -12.14412163457689
+          ],
+          "scale": [
+            3.027085212194808,
+            3.027085212194807,
+            3.027085212194808
+          ],
+          "rotation": [
+            0,
+            0.0000019409120613561875,
+            0,
+            "XYZ"
+          ],
+          "type": "asset_mesh",
+          "materialAssignments": [
+            {
+              "color": "#ffffff",
+              "materialId": "a1583e0a-06ee-4063-a4e6-79808c71257d",
+              "name": "White chessboard board.001"
+            },
+            {
+              "color": "#ffffff",
+              "materialId": "a1583c3c-d648-423f-bb2a-cac65735c47c",
+              "name": "Black house chessboard.001"
+            },
+            {
+              "color": "#ffffff",
+              "materialId": "a1583c3c-d648-423f-bb2a-cac65735c47c",
+              "name": "Ceramic chess piece black.001"
+            },
+            {
+              "color": "#ffffff",
+              "materialId": "a1583e0a-06ee-4063-a4e6-79808c71257d",
+              "name": "Ceramic white plaid piece.001"
+            }
+          ],
+          "collisionDetection": true,
+          "physics": {
+            "type": 2,
+            "friction": 0.5,
+            "density": 1,
+            "restitution": 0.5,
+            "mass": 1
+          },
+          "castShadow": true
+        },
+        {
+          "id": "23bb7ee0-44c7-4711-9523-7a09f76e0868",
+          "name": "uploads_files_2764985_sanseweria",
+          "assetId": "a15810be-2044-482c-84b4-64c80572db9e",
+          "position": [
+            -11.347610204085527,
+            8.00539970298025,
+            1.0379402173615517
+          ],
+          "scale": [
+            0.04021870460952007,
+            0.04152089606670978,
+            0.04021870460952007
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "type": "asset_mesh",
+          "materialAssignments": [
+            {
+              "color": "#e7e7e7",
+              "materialId": "a1582c07-029e-49e9-835b-5ae1f0371391",
+              "name": "Material.004"
+            },
+            {
+              "color": "#e7e7e7",
+              "materialId": "a1582ac8-c6a6-4093-9ce1-cbd600b29913",
+              "name": "Material.001"
+            },
+            {
+              "color": "#e7e7e7",
+              "materialId": "a1581e2f-4820-44d6-ad3d-622e6bdcdf87",
+              "name": "Material.003"
+            },
+            {
+              "color": "#e7e7e7",
+              "materialId": "a1582ac8-c6a6-4093-9ce1-cbd600b29913",
+              "name": "Material.002"
+            }
+          ],
+          "collisionDetection": true,
+          "physics": {
+            "type": 2,
+            "friction": 0.5,
+            "density": 1,
+            "restitution": 0.5,
+            "mass": 1
+          },
+          "castShadow": true
+        },
+        {
+          "id": "8bcc91d1-b94a-4c5f-8ea7-587d3e271ee8",
+          "name": "uploads_files_2950893_PC",
+          "assetId": "a158494b-e842-42f8-9d68-a0ae42b882ed",
+          "position": [
+            -12.02828553584584,
+            13.19032716327126,
+            8.916204880391092
+          ],
+          "scale": [
+            0.00700896122040318,
+            0.007008961220403185,
+            0.007008961220403187
+          ],
+          "rotation": [
+            -1.5707963267948963,
+            5.551115123125783e-17,
+            1.5707963267948961,
+            "XYZ"
+          ],
+          "type": "asset_mesh",
+          "materialAssignments": [
+            {
+              "color": "#ffffff",
+              "materialId": "a1583e0a-06ee-4063-a4e6-79808c71257d",
+              "name": "PCBody"
+            },
+            {
+              "color": "#5c6262",
+              "materialId": "a1584b9d-0806-4432-be2b-0996827f9d9b",
+              "name": "KeyboardKeys"
+            },
+            {
+              "color": "#e7e7e7",
+              "materialId": "a1583c3c-d648-423f-bb2a-cac65735c47c",
+              "name": "KeyboardLine"
+            }
+          ],
+          "collisionDetection": true,
+          "physics": {
+            "type": 2,
+            "friction": 0.5,
+            "density": 1,
+            "restitution": 0.5,
+            "mass": 1
+          },
+          "castShadow": true
+        },
+        {
+          "id": "1d7979d7-4bb7-4abb-ba97-eb4fd5b25055",
+          "name": "Point Light",
+          "assetId": "",
+          "position": [
+            -12.05292143719123,
+            15.135831317058646,
+            13.075448971605852
+          ],
+          "scale": [
+            0.9999999999999998,
+            1,
+            0.9999999999999998
+          ],
+          "rotation": [
+            0,
+            -0.014536812028507824,
+            0,
+            "XYZ"
+          ],
+          "type": "light",
+          "light": {
+            "type": "point",
+            "point": {
+              "color": "#DBC8A7",
+              "intensity": 2.15,
+              "distance": 10.4,
+              "decay": 0.2,
+              "castShadow": true,
+              "volumetricIntensity": 1
+            }
+          }
+        },
+        {
+          "id": "ad9e3dee-ce5d-463b-ab3c-e10b09792e56",
+          "name": "Point Light",
+          "assetId": "",
+          "position": [
+            -9.346280187506693,
+            16.59863272452046,
+            -23.447085499435957
+          ],
+          "scale": [
+            0.9999999999999998,
+            1,
+            0.9999999999999998
+          ],
+          "rotation": [
+            0,
+            -0.014536812028507824,
+            0,
+            "XYZ"
+          ],
+          "type": "light",
+          "light": {
+            "type": "point",
+            "point": {
+              "color": "#DBC8A7",
+              "intensity": 1.65,
+              "distance": 10.4,
+              "decay": 0.2,
+              "castShadow": true,
+              "volumetricIntensity": 1
+            }
+          }
+        },
+        {
+          "id": "01fd530f-3860-4f46-a86b-cb37478b6ce8",
+          "name": "Blanket1",
+          "assetId": "a158aa8d-8944-47f9-9001-f3faae99613e",
+          "position": [
+            17.67477993324701,
+            8.614566496596153,
+            -17.77644918756357
+          ],
+          "scale": [
+            6.388647416015851,
+            5.6547486872798585,
+            5.654748687279851
+          ],
+          "rotation": [
+            2.6728221680055633,
+            -1.513880062167374,
+            2.6734750442347432,
+            "XYZ"
+          ],
+          "type": "asset_mesh",
+          "materialAssignments": [],
+          "castShadow": true,
+          "collisionDetection": true,
+          "physics": {
+            "type": 2,
+            "friction": 0.5,
+            "density": 1,
+            "restitution": 0.5,
+            "mass": 1
+          }
+        },
+        {
+          "id": "b1d94798-e433-4267-8f32-6226af87b18d",
+          "name": "Phone",
+          "assetId": "a155ed71-0180-444c-84dc-ad2864af6058",
+          "position": [
+            -15.292790049529827,
+            9.3434789427138,
+            3.4095709478889376
+          ],
+          "scale": [
+            1.2026088347752235,
+            1.2026088347752235,
+            1.2026088347752235
+          ],
+          "rotation": [
+            -3.141592653589793,
+            -0.6658630605769,
+            -3.141592653589793,
+            "XYZ"
+          ],
+          "type": "asset_mesh",
+          "materialAssignments": [
+            {
+              "color": "#00afe7",
+              "materialId": "a1583c3c-d648-423f-bb2a-cac65735c47c",
+              "name": "Material.002"
+            },
+            {
+              "color": "#332ebe",
+              "materialId": "a1583c3c-d648-423f-bb2a-cac65735c47c",
+              "name": "Material.012"
+            }
+          ],
+          "collisionDetection": true,
+          "physics": {
+            "type": 2,
+            "friction": 0.5,
+            "density": 1,
+            "restitution": 0.5,
+            "mass": 1
+          }
         }
-      ],
-      "collisionDetection": true,
-      "physics": {
-        "type": 2,
-        "friction": 0.5,
-        "density": 1,
-        "restitution": 0.5,
-        "mass": 1
-      },
-      "castShadow": true
-    },
-    {
-      "id": "e1595628-32a6-4f98-809a-dc1686ef914c",
-      "name": "TV2",
-      "assetId": "a155edd5-dbd2-47b2-af15-e90db530272a",
-      "position": [
-        205.03822145735256,
-        -0.29042955631405243,
-        528.6638731706203
-      ],
-      "scale": [
-        3.098271080365639,
-        3.0982710803656386,
-        3.098271080365639
-      ],
-      "rotation": [
-        0,
-        1.5707963267948966,
-        0,
-        "XYZ"
-      ],
-      "type": "asset_mesh",
-      "materialAssignments": [
-        {
-          "color": "#ffffff",
-          "materialId": "a1581d65-f11e-41ce-b4c2-0950312a07a5",
-          "name": "TV"
-        },
-        {
-          "color": "#ffffff",
-          "materialId": "a1583c3c-d648-423f-bb2a-cac65735c47c",
-          "name": "Soundbar"
-        }
-      ],
-      "collisionDetection": true,
-      "physics": {
-        "type": 2,
-        "friction": 0.5,
-        "density": 1,
-        "restitution": 0.5,
-        "mass": 1
-      }
-    },
-    {
-      "id": "ea175f31-64a3-4d33-b32b-061748d0d130",
-      "name": "Garren_Sofa",
-      "assetId": "a15839ee-0f4c-4ac8-9af4-4c7ba166e455",
-      "position": [
-        222.6745378521793,
-        -0.3663538304700613,
-        529.2347034138196
-      ],
-      "scale": [
-        0.00874142611232073,
-        0.008741426112320731,
-        0.00874142611232073
-      ],
-      "rotation": [
-        -2.7369110631344083e-48,
-        -1.5707963267948966,
-        0,
-        "XYZ"
-      ],
-      "type": "asset_mesh",
-      "materialAssignments": [
-        {
-          "color": "#bcbcbc",
-          "materialId": "a158a092-b70c-4bb2-adde-7b1b34d14a1d",
-          "name": "fabric_VMT"
-        },
-        {
-          "color": "#bcbcbc",
-          "materialId": "a1581285-456a-40e8-befc-8753b381f2fd",
-          "name": "wood_VMT"
-        }
-      ],
-      "collisionDetection": true,
-      "physics": {
-        "type": 2,
-        "friction": 0.5,
-        "density": 1,
-        "restitution": 0.5,
-        "mass": 1
-      }
-    },
-    {
-      "id": "f190cbe2-1717-446d-b036-128cc3b2b61b",
-      "name": "Floor",
-      "assetId": "a155ec46-1a02-45de-a979-36500284ccab",
-      "position": [
-        206.22942222006515,
-        -3.5399023581079234,
-        535.5945949827839
-      ],
-      "scale": [
-        0.24368416206895438,
-        0.3029215939152642,
-        0.24368416206895438
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        "XYZ"
-      ],
-      "type": "asset_mesh",
-      "materialAssignments": [
-        {
-          "color": "#ffffff",
-          "materialId": "a1581285-456a-40e8-befc-8753b381f2fd",
-          "name": "Material.017"
-        },
-        {
-          "color": "#ffffff",
-          "materialId": "a1586a1e-ecb8-41ab-82fc-0d1806a0ec31",
-          "name": "Material.019"
-        },
-        {
-          "color": "#e7e7e7",
-          "materialId": "a1582ba2-4408-42d4-98fa-61720c7adcc0",
-          "name": "Material.021"
-        }
-      ],
-      "collisionDetection": true,
-      "physics": {
-        "type": 2,
-        "friction": 0.5,
-        "density": 1,
-        "restitution": 0.5,
-        "mass": 1
-      },
-      "castShadow": true
-    },
-    {
-      "id": "f6ac416b-c611-4199-a1cd-8657c328d5cb",
-      "name": "Desk",
-      "assetId": "a155ed4a-1d72-4381-92d2-cb6a4de9ed59",
-      "position": [
-        201.82666199320786,
-        -0.5325917696717214,
-        552.0145250529189
-      ],
-      "scale": [
-        5.412306304391743,
-        5.412306304391743,
-        5.412306304391743
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        "XYZ"
-      ],
-      "type": "asset_mesh",
-      "materialAssignments": [
-        {
-          "color": "#dfa585",
-          "materialId": "a1581285-456a-40e8-befc-8753b381f2fd",
-          "name": "Wood.002"
-        }
-      ],
-      "collisionDetection": true,
-      "physics": {
-        "type": 2,
-        "friction": 0.5,
-        "density": 1,
-        "restitution": 0.5,
-        "mass": 1
-      },
-      "castShadow": true
+      ]
     }
   ]
 }

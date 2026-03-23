@@ -1,5 +1,5 @@
 {
-  "name": "M_Ground (copy)",
+  "name": "M_Lampshade",
   "type": "material",
   "material": {
     "type": "standard",
@@ -7,14 +7,15 @@
       "metalness": 0,
       "opacity": 1
     },
-    "side": 0,
+    "side": 2,
     "shaderParams": {
       "color": {
         "type": 10,
-        "value": "#B8C5AB"
+        "value": "#ebeaea"
       },
       "map": {
-        "type": 2
+        "type": 2,
+        "value": "a1584594-b922-4ee6-a146-72eb004e1e4d"
       },
       "opacity": {
         "type": 1,
@@ -25,14 +26,15 @@
       },
       "roughness": {
         "type": 1,
-        "value": 1
+        "value": 0.5
       },
       "roughnessMap": {
-        "type": 2
+        "type": 2,
+        "value": "a1582b48-c20c-44eb-99d4-c06205ed156d"
       },
       "metalness": {
         "type": 1,
-        "value": 0
+        "value": ""
       },
       "metalnessMap": {
         "type": 2
@@ -51,28 +53,33 @@
       },
       "emissive": {
         "type": 10,
-        "value": "#000000"
+        "value": "#fbdaac"
       },
       "emissiveIntensity": {
-        "type": 1
+        "type": 1,
+        "value": 0.45
       },
       "emissiveMap": {
-        "type": 2
+        "type": 2,
+        "value": "a1583c28-5844-4d9d-aa85-248df363c66d"
       },
       "bumpMap": {
-        "type": 2
+        "type": 2,
+        "value": "a1584594-db6e-4391-b7dc-d485e19662a3"
       },
       "bumpScale": {
-        "type": 1
+        "type": 1,
+        "value": 0.25
       },
       "normalMap": {
-        "type": 2
+        "type": 2,
+        "value": "a1582a41-b9cc-4c2a-aa2e-adbef6a1c42c"
       },
       "normalScale": {
         "type": 6,
         "value": [
-          1,
-          1
+          0.3,
+          0.3
         ]
       },
       "displacementMap": {
@@ -103,7 +110,8 @@
         "type": 4,
         "value": false
       }
-    }
+    },
+    "transparent": true
   },
-  "id": "a15e751d-b1f2-4ff8-8ebe-a7f48a7f6ea9"
+  "id": "a15e7c14-f3e4-4aec-90f4-9e0baa5e4e27"
 }
