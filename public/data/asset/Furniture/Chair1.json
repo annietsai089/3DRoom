@@ -1,9 +1,0 @@
-{
-  "name": "Chair1",
-  "type": "mesh",
-  "collisionDetection": true,
-  "id": "a155ed73-7b72-4d52-b08c-8e3e1c78f64b",
-  "fileKey": "Chair1.glb",
-  "fileFormat": "glb",
-  "sourceFile": "C:\\Users\\annie\\Downloads\\Chair1.glb"
-}
