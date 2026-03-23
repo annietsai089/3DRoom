@@ -39,14 +39,14 @@
       "id": "05137537-6090-41c7-852d-53c539fc0142",
       "name": "Box",
       "position": [
-        213.15459585743582,
-        21.688916259309075,
+        213.15459585743588,
+        22.657475505246605,
         515.0211893800143
       ],
       "scale": [
-        23.607055800790313,
-        1.2159296736596727,
-        3.857281579505719
+        23.198850506645705,
+        1.6102851263644287,
+        3.9698585518093465
       ],
       "rotation": [
         0,
@@ -69,7 +69,8 @@
         "density": 1,
         "restitution": 0.5,
         "mass": 1
-      }
+      },
+      "castShadow": false
     },
     {
       "id": "11870254-2dcd-43b9-bc89-bcd7db7b13ef",
@@ -132,8 +133,8 @@
       "light": {
         "type": "point",
         "point": {
-          "color": "#ebe4d5",
-          "intensity": 1.2,
+          "color": "#DBC8A7",
+          "intensity": 2.15,
           "distance": 10.4,
           "decay": 0.2,
           "castShadow": true,
@@ -214,7 +215,13 @@
         "XYZ"
       ],
       "type": "shape_mesh",
-      "materialAssignments": [],
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "a15e751d-b1f2-4ff8-8ebe-a7f48a7f6ea9",
+          "name": "Default"
+        }
+      ],
       "castShadow": true,
       "receiveShadow": true,
       "collisionDetection": true,
@@ -389,13 +396,13 @@
       "assetId": "a155ed49-d40c-402f-9c50-ee6d023e64a4",
       "position": [
         205.62913357447812,
-        29.084585827002535,
+        30.12328749430052,
         557.9100934816076
       ],
       "scale": [
         6.887933280710316,
-        6.88793328071034,
-        6.132511155998934
+        6.887933280710343,
+        6.132511155998937
       ],
       "rotation": [
         3.1246557877270646,
@@ -426,7 +433,7 @@
       "assetId": "a155ed49-d40c-402f-9c50-ee6d023e64a4",
       "position": [
         202.28825681997375,
-        25.8477018134649,
+        26.886403480762887,
         549.7728906619052
       ],
       "scale": [
@@ -462,7 +469,7 @@
       "name": "Ambient Light",
       "assetId": "",
       "position": [
-        192.19597385404424,
+        251.77529573287177,
         20.760731599687546,
         533.524340621162
       ],
@@ -482,7 +489,7 @@
         "type": "ambient",
         "ambient": {
           "color": "#c2c1bd",
-          "intensity": 0.4,
+          "intensity": 0.25,
           "volumetricIntensity": 1
         }
       }
@@ -523,13 +530,13 @@
       "name": "Curtain1",
       "assetId": "a1582902-f94a-455f-b051-0fac1ffac257",
       "position": [
-        230.9433498249671,
-        0.3987442730532021,
-        536.8092087020896
+        230.01162096348978,
+        -0.24572726804723546,
+        536.9859425217622
       ],
       "scale": [
-        8.876223040630835,
-        8.876223040630835,
+        8.397066425949447,
+        9.535869294005524,
         8.876223040630835
       ],
       "rotation": [
@@ -553,7 +560,8 @@
         "density": 1,
         "restitution": 0.5,
         "mass": 1
-      }
+      },
+      "castShadow": true
     },
     {
       "id": "8bcc91d1-b94a-4c5f-8ea7-587d3e271ee8",
@@ -701,8 +709,8 @@
       "light": {
         "type": "point",
         "point": {
-          "color": "#ebe4d5",
-          "intensity": 1.2,
+          "color": "#DBC8A7",
+          "intensity": 1.65,
           "distance": 10.4,
           "decay": 0.2,
           "castShadow": true,
@@ -727,13 +735,39 @@
       "name": "Sky",
       "type": "sky",
       "sky": {
-        "materialId": null
+        "materialId": "a15e751d-b1f2-4ff8-8ebe-a7f48a7f6ea9"
       },
       "rotation": [
         0,
         0,
         0
       ]
+    },
+    {
+      "id": "auto-world-env",
+      "name": "World Environment",
+      "type": "world_env",
+      "worldEnv": {
+        "ao": {
+          "enabled": true,
+          "blendIntensity": 0.58,
+          "radius": 1,
+          "distanceExponent": 1,
+          "thickness": 1,
+          "distanceFallOff": 0.85,
+          "scale": 1,
+          "samples": 16,
+          "onlyAO": false
+        },
+        "toneMapping": {
+          "mapping": 0,
+          "exposure": 1
+        },
+        "environment": {
+          "textureId": "a1582aa2-ff7a-411d-b94d-bec6c5374976",
+          "intensity": 0.46
+        }
+      }
     },
     {
       "id": "b1d94798-e433-4267-8f32-6226af87b18d",
@@ -949,8 +983,7 @@
         "density": 1,
         "restitution": 0.5,
         "mass": 1
-      },
-      "castShadow": true
+      }
     },
     {
       "id": "f190cbe2-1717-446d-b036-128cc3b2b61b",
@@ -958,13 +991,13 @@
       "assetId": "a155ec46-1a02-45de-a979-36500284ccab",
       "position": [
         206.22942222006515,
-        -2.7721177570419373,
-        535.594594982784
+        -3.5399023581079234,
+        535.5945949827839
       ],
       "scale": [
-        0.2436841620689544,
-        0.2436841620689544,
-        0.2436841620689544
+        0.24368416206895438,
+        0.3029215939152642,
+        0.24368416206895438
       ],
       "rotation": [
         0,
@@ -976,8 +1009,18 @@
       "materialAssignments": [
         {
           "color": "#ffffff",
+          "materialId": "a1581285-456a-40e8-befc-8753b381f2fd",
+          "name": "Material.017"
+        },
+        {
+          "color": "#ffffff",
           "materialId": "a1586a1e-ecb8-41ab-82fc-0d1806a0ec31",
           "name": "Material.019"
+        },
+        {
+          "color": "#e7e7e7",
+          "materialId": "a1582ba2-4408-42d4-98fa-61720c7adcc0",
+          "name": "Material.021"
         }
       ],
       "collisionDetection": true,
@@ -987,7 +1030,8 @@
         "density": 1,
         "restitution": 0.5,
         "mass": 1
-      }
+      },
+      "castShadow": true
     },
     {
       "id": "f6ac416b-c611-4199-a1cd-8657c328d5cb",
