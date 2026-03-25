@@ -7,7 +7,7 @@
       "metalness": 0,
       "opacity": 1
     },
-    "side": 2,
+    "side": 0,
     "shaderParams": {
       "color": {
         "type": 10,
@@ -60,12 +60,6 @@
       "emissiveMap": {
         "type": 2
       },
-      "bumpMap": {
-        "type": 2
-      },
-      "bumpScale": {
-        "type": 1
-      },
       "normalMap": {
         "type": 2,
         "value": "a156db57-069c-410d-be2b-605b0fbfb9e8"
@@ -77,14 +71,33 @@
           1
         ]
       },
-      "displacementMap": {
+      "sheen": {
+        "type": 1,
+        "value": 0
+      },
+      "sheenColor": {
+        "type": 10,
+        "value": "#ffffff"
+      },
+      "sheenColorMap": {
         "type": 2
       },
-      "displacementScale": {
+      "sheenRoughness": {
+        "type": 1,
+        "value": 0.5
+      },
+      "sheenRoughnessMap": {
+        "type": 2
+      },
+      "anisotropyRotation": {
         "type": 1
       },
-      "displacementBias": {
-        "type": 1
+      "anisotropyMap": {
+        "type": 2
+      },
+      "anisotropy": {
+        "type": 1,
+        "value": 0
       },
       "envMap": {
         "type": 2

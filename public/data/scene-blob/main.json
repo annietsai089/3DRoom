@@ -57,6 +57,35 @@
       }
     },
     {
+      "id": "3a09e647-c49b-4491-a200-2063b837fd8f",
+      "name": "Rect Area Light TV",
+      "assetId": "",
+      "position": [
+        191.08426274667673,
+        10.151327657460621,
+        527.9998269109972
+      ],
+      "scale": [
+        11.68343317668057,
+        11.683433176680563,
+        11.683433176680564
+      ],
+      "rotation": [
+        -1.276533490692897,
+        -1.460316242005889,
+        -1.2782266096213197,
+        "XYZ"
+      ],
+      "type": "light",
+      "light": {
+        "type": "rectArea",
+        "rectArea": {
+          "color": "#5379e9",
+          "intensity": 4
+        }
+      }
+    },
+    {
       "id": "6a0a5b15-4818-48db-ba02-2c6416ad89f0",
       "name": "Ambient Light",
       "assetId": "",
@@ -81,7 +110,7 @@
         "type": "ambient",
         "ambient": {
           "color": "#B8C5AB",
-          "intensity": 0.2,
+          "intensity": 0.1,
           "volumetricIntensity": 0.4
         }
       }
@@ -128,12 +157,41 @@
           "onlyAO": false
         },
         "toneMapping": {
-          "mapping": 0,
+          "mapping": 6,
           "exposure": 1
         },
         "environment": {
-          "textureId": "a1583bac-5dde-4f0f-b4cb-465c24e8db86",
-          "intensity": 0.1
+          "textureId": "a160cf71-a7ce-4a58-9062-23e5600e1f75",
+          "intensity": 0.02
+        }
+      }
+    },
+    {
+      "id": "b6b7d3ec-5541-406b-b76a-68d6e94d331b",
+      "name": "Rect Area Light Window",
+      "assetId": "",
+      "position": [
+        212.994874653297,
+        12.156507451639541,
+        510.99321529981927
+      ],
+      "scale": [
+        11.683433176680559,
+        11.683433176680555,
+        11.683433176680557
+      ],
+      "rotation": [
+        -3.03550851306815,
+        -0.08351007752889208,
+        -3.136105613305274,
+        "XYZ"
+      ],
+      "type": "light",
+      "light": {
+        "type": "rectArea",
+        "rectArea": {
+          "color": "#fffad6",
+          "intensity": 0.75
         }
       }
     },
@@ -296,7 +354,8 @@
             "restitution": 0.5,
             "mass": 1
           },
-          "castShadow": true
+          "castShadow": true,
+          "receiveShadow": true
         },
         {
           "id": "8f18f175-e526-4728-9e04-b9972aeefc9a",
@@ -304,17 +363,17 @@
           "assetId": "a158228b-275e-4280-952b-0d59be201af5",
           "position": [
             6.936914905616959,
-            8.365907316779008,
-            -9.863220271404089
+            7.993696973196559,
+            -9.863220271403861
           ],
           "scale": [
+            0.07311446895034827,
             0.07311446895034829,
-            0.07311446895034829,
-            0.09139542250422164
+            0.0913954225042216
           ],
           "rotation": [
             0,
-            0.000001940912061356186,
+            0.0000019409120613551604,
             0,
             "XYZ"
           ],
@@ -339,7 +398,8 @@
             "restitution": 0.5,
             "mass": 1
           },
-          "castShadow": true
+          "castShadow": true,
+          "receiveShadow": true
         },
         {
           "id": "56066c41-29cc-4702-88b4-9065a2bff6fe",
@@ -382,7 +442,8 @@
             "restitution": 0.5,
             "mass": 1
           },
-          "castShadow": true
+          "castShadow": true,
+          "receiveShadow": true
         },
         {
           "id": "7f56cf34-dbd3-4597-9ff7-9c9931fe5e28",
@@ -427,14 +488,14 @@
           "name": "Desk Lamp 1",
           "assetId": "a1593991-4054-42da-bcf3-9b3bcb04d79b",
           "position": [
-            -11.753756216415724,
-            13.126473912408962,
-            13.594480108272933
+            -11.753756216415667,
+            13.126473912408965,
+            13.594480108273046
           ],
           "scale": [
-            0.05576046715468658,
-            0.0557604671546866,
-            0.05576046715468658
+            0.05576046715468655,
+            0.05576046715468659,
+            0.05576046715468655
           ],
           "rotation": [
             0,
@@ -488,7 +549,7 @@
           "materialAssignments": [
             {
               "color": "#dfa585",
-              "materialId": "a1581285-456a-40e8-befc-8753b381f2fd",
+              "materialId": "a160d925-559a-4d53-8f3d-89790b62208b",
               "name": "Wood.002"
             }
           ],
@@ -500,15 +561,16 @@
             "restitution": 0.5,
             "mass": 1
           },
-          "castShadow": true
+          "castShadow": true,
+          "receiveShadow": true
         },
         {
           "id": "38957d1d-9550-4996-87b9-7448ea43591b",
           "name": "Floor Lamp 2",
           "assetId": "a1582421-557a-4b9b-a544-cbab24c03032",
           "position": [
-            -10.170591347031177,
-            8.009572753984816,
+            -10.170591347031149,
+            7.908135546222698,
             -22.544803571043758
           ],
           "scale": [
@@ -518,7 +580,7 @@
           ],
           "rotation": [
             0,
-            0,
+            -2.1539177047447523e-18,
             0,
             "XYZ"
           ],
@@ -599,7 +661,7 @@
             "friction": 0.5,
             "density": 1,
             "restitution": 0.5,
-            "mass": 1
+            "mass": 0.4
           },
           "castShadow": false,
           "receiveShadow": true
@@ -721,7 +783,7 @@
             "restitution": 0.5,
             "mass": 1
           },
-          "castShadow": true
+          "castShadow": false
         },
         {
           "id": "61cf2e89-a43f-48d4-a510-d325073a70a5",
@@ -759,7 +821,7 @@
             "restitution": 0.5,
             "mass": 1
           },
-          "castShadow": true
+          "castShadow": false
         },
         {
           "id": "b1d94798-e433-4267-8f32-6226af87b18d",
@@ -942,25 +1004,25 @@
             "restitution": 0.5,
             "mass": 1
           },
-          "castShadow": true
+          "castShadow": false
         },
         {
           "id": "cddad05b-0405-4bc1-ad50-7e5285f7e3fd",
           "name": "chess",
           "assetId": "a155ee45-8626-4a34-8f38-15e1659d324e",
           "position": [
-            13.404213011756582,
-            5.122744900709547,
-            -12.14412163457689
+            13.40421301175661,
+            4.722843734238261,
+            -12.144121634576777
           ],
           "scale": [
-            3.027085212194808,
-            3.027085212194807,
-            3.027085212194808
+            3.027085212194806,
+            3.0270852121948097,
+            3.027085212194806
           ],
           "rotation": [
             0,
-            0.0000019409120613561875,
+            0.00000194091206135556,
             0,
             "XYZ"
           ],
@@ -995,7 +1057,8 @@
             "restitution": 0.5,
             "mass": 1
           },
-          "castShadow": true
+          "castShadow": true,
+          "receiveShadow": false
         },
         {
           "id": "23bb7ee0-44c7-4711-9523-7a09f76e0868",
@@ -1048,7 +1111,8 @@
             "restitution": 0.5,
             "mass": 1
           },
-          "castShadow": true
+          "castShadow": true,
+          "receiveShadow": true
         },
         {
           "id": "8bcc91d1-b94a-4c5f-8ea7-587d3e271ee8",
