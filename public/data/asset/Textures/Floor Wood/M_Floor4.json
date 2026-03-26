@@ -1,5 +1,5 @@
 {
-  "name": "M_Floor2",
+  "name": "M_Floor4",
   "type": "material",
   "material": {
     "type": "standard",
@@ -15,7 +15,7 @@
       },
       "map": {
         "type": 2,
-        "value": "a164bf1c-4ae2-49b9-a79d-6f7ce21c9b8a"
+        "value": "a164d13a-753c-4030-8255-bc9f2d06ff90"
       },
       "opacity": {
         "type": 1,
@@ -30,14 +30,15 @@
       },
       "roughnessMap": {
         "type": 2,
-        "value": "a164bf1c-3c28-4ccc-83c3-a92bf8caf70d"
+        "value": "a164cd1e-6c56-4189-86a1-d99d1c1588a7"
       },
       "metalness": {
         "type": 1,
-        "value": 0
+        "value": 0.2
       },
       "metalnessMap": {
-        "type": 2
+        "type": 2,
+        "value": "a164cbaa-a178-419b-b76d-3a66e00825c9"
       },
       "lightMap": {
         "type": 2
@@ -47,11 +48,11 @@
       },
       "aoMap": {
         "type": 2,
-        "value": "a164bf1c-80e8-40c4-b096-1d3ee4171dbb"
+        "value": "a164cd1e-c3fe-436b-b972-aa6e6a89e6ce"
       },
       "aoMapIntensity": {
         "type": 1,
-        "value": 0.55
+        "value": 0.5
       },
       "emissive": {
         "type": 10,
@@ -65,13 +66,13 @@
       },
       "normalMap": {
         "type": 2,
-        "value": "a164bf1c-b310-4f49-b4f9-60a87c1025f5"
+        "value": "a164cd1e-3f06-4900-b47f-e71156600bcd"
       },
       "normalScale": {
         "type": 6,
         "value": [
-          0.9,
-          1.1
+          0.8,
+          0.8
         ]
       },
       "sheen": {
@@ -120,5 +121,5 @@
       }
     }
   },
-  "id": "a164be34-9828-481a-b57f-8163c151c9df"
+  "id": "a164cd49-5484-42af-8b41-1ddf413643e1"
 }

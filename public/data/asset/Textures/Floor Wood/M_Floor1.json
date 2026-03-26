@@ -1,5 +1,5 @@
 {
-  "name": "M_Floor2",
+  "name": "M_Floor1",
   "type": "material",
   "material": {
     "type": "standard",
@@ -11,11 +11,11 @@
     "shaderParams": {
       "color": {
         "type": 10,
-        "value": "#ffffff"
+        "value": "#b0b0b0"
       },
       "map": {
         "type": 2,
-        "value": "a164bf1c-4ae2-49b9-a79d-6f7ce21c9b8a"
+        "value": "a1586ada-7c76-4af4-9244-f1deea4149d4"
       },
       "opacity": {
         "type": 1,
@@ -26,15 +26,14 @@
       },
       "roughness": {
         "type": 1,
-        "value": 1
+        "value": "0.9"
       },
       "roughnessMap": {
-        "type": 2,
-        "value": "a164bf1c-3c28-4ccc-83c3-a92bf8caf70d"
+        "type": 2
       },
       "metalness": {
         "type": 1,
-        "value": 0
+        "value": "0"
       },
       "metalnessMap": {
         "type": 2
@@ -46,12 +45,10 @@
         "type": 1
       },
       "aoMap": {
-        "type": 2,
-        "value": "a164bf1c-80e8-40c4-b096-1d3ee4171dbb"
+        "type": 2
       },
       "aoMapIntensity": {
-        "type": 1,
-        "value": 0.55
+        "type": 1
       },
       "emissive": {
         "type": 10,
@@ -65,18 +62,18 @@
       },
       "normalMap": {
         "type": 2,
-        "value": "a164bf1c-b310-4f49-b4f9-60a87c1025f5"
+        "value": "a1586ada-d5a4-46dc-9b19-c6dabd492ae9"
       },
       "normalScale": {
         "type": 6,
         "value": [
-          0.9,
-          1.1
+          0.2,
+          0.2
         ]
       },
       "sheen": {
         "type": 1,
-        "value": 0
+        "value": "0"
       },
       "sheenColor": {
         "type": 10,
@@ -87,7 +84,7 @@
       },
       "sheenRoughness": {
         "type": 1,
-        "value": 0.5
+        "value": ".5"
       },
       "sheenRoughnessMap": {
         "type": 2
@@ -118,7 +115,8 @@
         "type": 4,
         "value": false
       }
-    }
+    },
+    "reflective": false
   },
-  "id": "a164be34-9828-481a-b57f-8163c151c9df"
+  "id": "a1586a1e-ecb8-41ab-82fc-0d1806a0ec31"
 }
