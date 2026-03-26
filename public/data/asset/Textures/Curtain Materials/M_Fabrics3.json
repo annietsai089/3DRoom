@@ -1,5 +1,5 @@
 {
-  "name": "Fabric",
+  "name": "M_Fabrics3",
   "type": "material",
   "material": {
     "type": "standard",
@@ -11,15 +11,15 @@
     "shaderParams": {
       "color": {
         "type": 10,
-        "value": "#fdfcfc"
+        "value": "#ffffff"
       },
       "map": {
         "type": 2,
-        "value": "a158a070-af68-4a48-abe1-8311f5378222"
+        "value": "a1581eb2-f620-4b24-a67d-1ca546a03e6c"
       },
       "opacity": {
         "type": 1,
-        "value": 0.6
+        "value": 1
       },
       "alphaMap": {
         "type": 2
@@ -30,7 +30,7 @@
       },
       "roughnessMap": {
         "type": 2,
-        "value": "a158a070-37e0-45be-83ed-6c47af46045f"
+        "value": "a1581eb2-dab4-44cd-8bb4-13f82b5ed8f0"
       },
       "metalness": {
         "type": 1,
@@ -46,10 +46,12 @@
         "type": 1
       },
       "aoMap": {
-        "type": 2
+        "type": 2,
+        "value": "a1581eb2-dab4-44cd-8bb4-13f82b5ed8f0"
       },
       "aoMapIntensity": {
-        "type": 1
+        "type": 1,
+        "value": 0.3
       },
       "emissive": {
         "type": 10,
@@ -63,29 +65,29 @@
       },
       "normalMap": {
         "type": 2,
-        "value": "a158a06f-b608-42c1-bf5e-4c03ebe829a4"
+        "value": "a1582a41-b9cc-4c2a-aa2e-adbef6a1c42c"
       },
       "normalScale": {
         "type": 6,
         "value": [
-          0.8,
-          0.8
+          0.1,
+          0.1
         ]
       },
       "sheen": {
         "type": 1,
-        "value": 1
+        "value": 0
       },
       "sheenColor": {
         "type": 10,
-        "value": "#808080"
+        "value": "#ffffff"
       },
       "sheenColorMap": {
         "type": 2
       },
       "sheenRoughness": {
         "type": 1,
-        "value": 0.55
+        "value": 0.5
       },
       "sheenRoughnessMap": {
         "type": 2
@@ -106,9 +108,6 @@
       "envMapIntensity": {
         "type": 1
       },
-      "refractionRatio": {
-        "type": 1
-      },
       "heightMap": {
         "type": 2
       },
@@ -121,5 +120,5 @@
       }
     }
   },
-  "id": "a1583e39-3176-4f6f-a678-058791237e45"
+  "id": "a164985d-d312-4fc5-9219-a072d24ae5e0"
 }

@@ -105,9 +105,6 @@
       "envMapIntensity": {
         "type": 1
       },
-      "refractionRatio": {
-        "type": 1
-      },
       "heightMap": {
         "type": 2
       },

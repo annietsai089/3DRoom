@@ -1,5 +1,5 @@
 {
-  "name": "M_Fabric3",
+  "name": "M_Fabric1",
   "type": "material",
   "material": {
     "type": "standard",
@@ -7,19 +7,19 @@
       "metalness": 0,
       "opacity": 1
     },
-    "side": 0,
+    "side": 2,
     "shaderParams": {
       "color": {
         "type": 10,
-        "value": "#ffffff"
+        "value": "#fdfcfc"
       },
       "map": {
         "type": 2,
-        "value": "a158a070-37e0-45be-83ed-6c47af46045f"
+        "value": "a158a070-af68-4a48-abe1-8311f5378222"
       },
       "opacity": {
         "type": 1,
-        "value": 1
+        "value": 0.6
       },
       "alphaMap": {
         "type": 2
@@ -68,24 +68,24 @@
       "normalScale": {
         "type": 6,
         "value": [
-          0.3,
-          0.3
+          0.8,
+          0.8
         ]
       },
       "sheen": {
         "type": 1,
-        "value": 0.9
+        "value": 1
       },
       "sheenColor": {
         "type": 10,
-        "value": "#ffffff"
+        "value": "#808080"
       },
       "sheenColorMap": {
         "type": 2
       },
       "sheenRoughness": {
         "type": 1,
-        "value": 0.85
+        "value": 0.55
       },
       "sheenRoughnessMap": {
         "type": 2
@@ -106,9 +106,6 @@
       "envMapIntensity": {
         "type": 1
       },
-      "refractionRatio": {
-        "type": 1
-      },
       "heightMap": {
         "type": 2
       },
@@ -121,5 +118,5 @@
       }
     }
   },
-  "id": "a158a092-b70c-4bb2-adde-7b1b34d14a1d"
+  "id": "a1583e39-3176-4f6f-a678-058791237e45"
 }

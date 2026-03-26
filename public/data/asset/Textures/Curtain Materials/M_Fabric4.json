@@ -1,5 +1,5 @@
 {
-  "name": "M_Wood2",
+  "name": "M_Fabric4",
   "type": "material",
   "material": {
     "type": "standard",
@@ -11,11 +11,11 @@
     "shaderParams": {
       "color": {
         "type": 10,
-        "value": "#9e9894"
+        "value": "#586f60"
       },
       "map": {
         "type": 2,
-        "value": "a1583cf0-6d5c-40b7-a86b-4e5b2ffbb63e"
+        "value": "a1649446-accc-46ff-8258-551c9a7e9cd0"
       },
       "opacity": {
         "type": 1,
@@ -30,7 +30,7 @@
       },
       "roughnessMap": {
         "type": 2,
-        "value": "a1583cef-6b78-45eb-a896-c8e81a5ad80d"
+        "value": "a1649446-fdf8-4d84-b1d3-886750b8240b"
       },
       "metalness": {
         "type": 1,
@@ -61,15 +61,9 @@
       "emissiveMap": {
         "type": 2
       },
-      "bumpMap": {
-        "type": 2
-      },
-      "bumpScale": {
-        "type": 1
-      },
       "normalMap": {
         "type": 2,
-        "value": "a156db57-069c-410d-be2b-605b0fbfb9e8"
+        "value": "a1649446-bad2-46e1-9cb4-5f9ab4a7b579"
       },
       "normalScale": {
         "type": 6,
@@ -78,22 +72,38 @@
           1
         ]
       },
-      "displacementMap": {
+      "sheen": {
+        "type": 1,
+        "value": 0
+      },
+      "sheenColor": {
+        "type": 10,
+        "value": "#ffffff"
+      },
+      "sheenColorMap": {
         "type": 2
       },
-      "displacementScale": {
+      "sheenRoughness": {
+        "type": 1,
+        "value": 0.5
+      },
+      "sheenRoughnessMap": {
+        "type": 2
+      },
+      "anisotropyRotation": {
         "type": 1
       },
-      "displacementBias": {
-        "type": 1
+      "anisotropyMap": {
+        "type": 2
+      },
+      "anisotropy": {
+        "type": 1,
+        "value": 0
       },
       "envMap": {
         "type": 2
       },
       "envMapIntensity": {
-        "type": 1
-      },
-      "refractionRatio": {
         "type": 1
       },
       "heightMap": {
@@ -108,5 +118,5 @@
       }
     }
   },
-  "id": "a15835ad-19be-420c-80a4-2efd63ae4b05"
+  "id": "a164949f-c67c-49a8-a456-1f0058329faa"
 }

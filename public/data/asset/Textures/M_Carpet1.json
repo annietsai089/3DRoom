@@ -1,5 +1,5 @@
 {
-  "name": "M_Carpet",
+  "name": "M_Carpet1",
   "type": "material",
   "material": {
     "type": "standard",
@@ -103,9 +103,6 @@
         "type": 2
       },
       "envMapIntensity": {
-        "type": 1
-      },
-      "refractionRatio": {
         "type": 1
       },
       "heightMap": {
