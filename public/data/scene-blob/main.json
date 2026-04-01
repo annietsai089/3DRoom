@@ -26,12 +26,10 @@
       "materialAssignments": [
         {
           "color": "#aaaaaa",
-          "materialId": "a15e751d-b1f2-4ff8-8ebe-a7f48a7f6ea9",
+          "materialId": "a170437c-6a1e-460a-82f3-e113b0aa7ded",
           "name": "Default"
         }
       ],
-      "castShadow": true,
-      "receiveShadow": true,
       "collisionDetection": true,
       "shape": "box",
       "physics": {
@@ -65,7 +63,7 @@
       "materialAssignments": [
         {
           "color": "#aaaaaa",
-          "materialId": "a15e751d-b1f2-4ff8-8ebe-a7f48a7f6ea9",
+          "materialId": "a170437c-6a1e-460a-82f3-e113b0aa7ded",
           "name": "Default"
         }
       ],
@@ -104,7 +102,7 @@
       "materialAssignments": [
         {
           "color": "#aaaaaa",
-          "materialId": "a15e751d-b1f2-4ff8-8ebe-a7f48a7f6ea9",
+          "materialId": "a170437c-6a1e-460a-82f3-e113b0aa7ded",
           "name": "Default"
         }
       ],
@@ -159,37 +157,7 @@
         "type": "rectArea",
         "rectArea": {
           "color": "#5379e9",
-          "intensity": 4
-        }
-      }
-    },
-    {
-      "id": "6a0a5b15-4818-48db-ba02-2c6416ad89f0",
-      "name": "Ambient Light",
-      "assetId": "",
-      "position": [
-        251.77529573287177,
-        1.6852166660943944,
-        533.524340621162
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        "XYZ"
-      ],
-      "type": "light",
-      "light": {
-        "type": "ambient",
-        "ambient": {
-          "color": "#B8C5AB",
-          "intensity": 0.1,
-          "volumetricIntensity": 0.4
+          "intensity": 2.45
         }
       }
     },
@@ -199,8 +167,8 @@
       "type": "global_fog",
       "fog": {
         "type": "density",
-        "color": "#B8C5AB",
-        "density": 0.002,
+        "color": "#0f0f0f",
+        "density": 0.001,
         "near": 100,
         "far": 1000
       }
@@ -210,7 +178,7 @@
       "name": "Sky",
       "type": "sky",
       "sky": {
-        "materialId": "a15e751d-b1f2-4ff8-8ebe-a7f48a7f6ea9"
+        "materialId": "a170437c-6a1e-460a-82f3-e113b0aa7ded"
       },
       "rotation": [
         0,
@@ -269,7 +237,7 @@
         "type": "rectArea",
         "rectArea": {
           "color": "#fffad6",
-          "intensity": 0.75
+          "intensity": 1.25
         }
       }
     },
@@ -725,12 +693,22 @@
           "materialAssignments": [
             {
               "color": "#ffffff",
+              "materialId": "a15e751d-b1f2-4ff8-8ebe-a7f48a7f6ea9",
+              "name": "Material.017"
+            },
+            {
+              "color": "#ffffff",
               "materialId": "a1586a1e-ecb8-41ab-82fc-0d1806a0ec31",
               "name": "Material.019"
             },
             {
+              "color": "#ffffff",
+              "materialId": "a15e751d-b1f2-4ff8-8ebe-a7f48a7f6ea9",
+              "name": "Material.020"
+            },
+            {
               "color": "#e7e7e7",
-              "materialId": "a1582ba2-4408-42d4-98fa-61720c7adcc0",
+              "materialId": "a160df3a-eb16-40fd-958e-2cc1ce2a5f3c",
               "name": "Material.021"
             }
           ],
@@ -785,7 +763,8 @@
             "density": 1,
             "restitution": 0.5,
             "mass": 1
-          }
+          },
+          "castShadow": true
         },
         {
           "id": "11870254-2dcd-43b9-bc89-bcd7db7b13ef",
@@ -830,19 +809,19 @@
           "name": "Painting",
           "assetId": "a155ed49-d40c-402f-9c50-ee6d023e64a4",
           "position": [
-            -0.6630268148088874,
-            37.5995582794709,
-            18.96713946424825
+            -0.5909601623967831,
+            37.599558279470905,
+            18.968187157428133
           ],
           "scale": [
-            6.887933280710317,
-            6.887933280710344,
-            6.132511155998937
+            6.887933280710318,
+            6.887933280710348,
+            6.132511155998938
           ],
           "rotation": [
             3.1246557877270646,
-            2.014828342742074e-18,
-            1.3370074907786412e-20,
+            5.160971152203836e-18,
+            5.741288597665932e-20,
             "XYZ"
           ],
           "type": "asset_mesh",
@@ -861,7 +840,7 @@
             "restitution": 0.5,
             "mass": 1
           },
-          "castShadow": false
+          "castShadow": true
         },
         {
           "id": "61cf2e89-a43f-48d4-a510-d325073a70a5",
@@ -899,7 +878,7 @@
             "restitution": 0.5,
             "mass": 1
           },
-          "castShadow": false
+          "castShadow": true
         },
         {
           "id": "b1d94798-e433-4267-8f32-6226af87b18d",
