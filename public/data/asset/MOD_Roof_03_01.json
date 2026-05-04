@@ -1,0 +1,12 @@
+{
+  "name": "MOD_Roof_03_01",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "a19c542e-162e-47ef-9d47-732980250b4b",
+  "fileKey": "MOD_Roof_03_01.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\Roof\\MOD_Roof_03_01.fbx"
+}
